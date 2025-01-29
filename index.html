@@ -3,7 +3,521 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Trinity Optics</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/component.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/home.css" />
+    <link rel="stylesheet" href="/assets/css/animation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("./components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+        <section class="hero-section">
+          <div class="hero-section-banner">
+            <div class="hero-section-appoinment container">
+              <div class="appoinment-header animate-on-scroll">
+                Vision Therapy & Contact Lens clinic
+              </div>
+              <a href="/page/enquiry.html" class="appoinment-button">
+                Make Appoinment</a>
+            </div>
+            <div class="hero-section-doctor container">
+              <div class="doctor-cards">
+                <div class="swiper mySwiper" style="height: 410px; height: 250px">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="doctor-profile">
+                        <div class="doctor-image">
+                          <img src="/assets/image/doctorprofile.png" />
+                        </div>
+                        <div class="doctor-name">
+                          <div class="name">Mr. Kumaran R</div>
+                          <div class="profession">Founder, CEO</div>
+                        </div>
+                      </div>
+                      <div class="schedule">
+                        <img src="/assets/icon/cuida--clock-outline.png" />
+                        <div class="schedule-time">
+                          <div class="schedule-time-start">
+                            Mon-Sat 9.30 am to 9.30pm
+                          </div>
+                          <div class="schedule-time-end">Sun-Closed</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="doctor-profile">
+                        <div class="doctor-image">
+                          <img src="/assets/image/doctorprofile.png" />
+                        </div>
+                        <div class="doctor-name">
+                          <div class="name">Mr. Samuel Livingstone K</div>
+                          <div class="profession">MP & Consultant Optometrist</div>
+                        </div>
+                      </div>
+                      <div class="schedule">
+                        <img src="/assets/icon/cuida--clock-outline.png" />
+                        <div class="schedule-time">
+                          <div class="schedule-time-start">
+                            Mon-Sat 9.30 am to 9.30pm
+                          </div>
+                          <div class="schedule-time-end">Sun-Closed</div>
+                        </div>
+                      </div>
+                    </div>
+     
+                  </div>
+                </div>
+              </div>
+    
+              <div class="banner-image animate-on-scroll">
+                <div class="banner-card1">
+                  <img src="/assets/images/vectors/banner-vector1.png" alt="" />
+                  <div class="banner-card1-content-text">
+                    <h1>Total Patient</h1>
+                    <h2>10.222</h2>
+                  </div>
+                </div>
+                <div class="banner-card2">
+                  <div class="banner-card2-icon">
+                    <i class="fa-solid fa-phone-volume"></i>
+                  </div>
+                  <div class="banner-card2-text">
+                    <h1>To more Inquiry</h1>
+                    <p>+91 9003111863</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-section-footer"></div>
+        </section>
+
+    <section class="About-us">
+        <div class="about-us-content1 container">
+    <div class="About-us1">
+      <div class="About-us-images">
+        <div class="about-us-icon"></div>
+        <div class="abt-col1">
+          <div class="abt-img1"></div>
+          <div class="abt-img2"></div>
+        </div>
+        <div class="abt-col2"><div class="abt-img3"></div></div>
+      </div>
+      <div class="About-us-content">
+        <div class="About-us-content-heading">
+          <h2 class="animate-on-scroll">About Us</h2>
+          <div class="line-dot"></div>
+        <h1 class="animate-on-scroll">
+          OneStop Destination for Comprehensive Eye Care
+        </h1>
+        </div>
+        <div class="About-us-content-1">
+          <div class="About-us-content11">
+            <h4>State-of-the-Art Optometry Clinic</h4>
+            <p>Our eye care professionals are committed to delivering exceptional vision care.</p>    
+          </div>
+          <div class="About-us-content12">
+            <h4>Comprehensive euipments</h4>
+            <p>
+              Our facility is equipped with advanced tools, including an Auto Refractometer, LogMAR and Contrast acuity charts, WelchAllyn/Riester Retinoscope, Keratometer, Slit Lamp with Goldmann Applanation Tonometer, Ishihara's Colour Vision Test Plates, Amsler Grid Chart, Direct and Indirect Ophthalmoscopes, Forus Fundus Camera, and an Advanced Vision Analyzer (AVA) for visual field testing.
+            </p>
+          </div>
+          </div>
+        <a href="/page/about.html" class="About-Viewmore">
+          <i class="fas fa-arrow-right"></i>
+        </a>
+          <div class="about-us-footer animate-on-scroll">
+            <div class="about-footer-container">
+              <div class="about-footer">
+                <div class="about-footer-content">
+                  <i class="far fa-smile"></i>
+                  <h1>30+</h1>
+                </div>
+                <div class="about-footer-text">
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+              <div class="about-footer">
+                <div class="about-footer-content">
+                  <i class="ri-glasses-line"></i>
+                  <h1>150K+</h1>
+                </div>
+                <div class="about-footer-text">
+                  <p>Customers</p>
+                </div>
+              </div>
+              <div class="about-footer">
+                <div class="about-footer-content">
+                  <i class="ri-trophy-line"></i>
+                  <h1>100+</h1>
+                </div>
+                <div class="about-footer-text">
+                  <p>Awards</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="doc-team">
+  <div class="doc-team-content">
+    <div class="doc-team-items container">
+      <h1 class="animate-on-scroll">Team of Experts</h1>
+      <p>
+        Our team of highly skilled optometrists brings a wealth of experience and knowledge, having graduated from prestigious institutions including CMCH Vellore, Sankara Nethralaya, Sri Ramachandra University, Manipal University, the University of New South Wales (Australia), and other renowned universities.
+      </p>
+      <div class="doc-team-slider-content">
+        <div class="doc-team-slider owl-carousel animate-on-scroll">
+          
+          <div class="doc-team-card ">
+            <div class="doc-team-card-imgcontent">
+              <div class="doc-team-card-img">
+                <img src="/assets/images/profile-images/teamimg1.png" alt=""/>
+                <div class="doc-team-overlay">
+                  <a href="#" class="doc-team-icon">
+                    <i class="fas fa-share-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="doc-team-card-content">
+              <h1>Mr. Kumaran R</h1>
+              <h2>Founder, CEO </h2>
+              <h2>Founder General Secretary OATN</h2>
+            </div>
+          </div>                           
+          <div class="doc-team-card">
+            <div class="doc-team-card-imgcontent">
+              <div class="doc-team-card-img">
+                <img src="/assets/images/profile-images/teamimg1.png" alt="">
+                <div class="doc-team-overlay">
+                  <a href="#" class="doc-team-icon">
+                    <i class="fas fa-share-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="doc-team-card-content">
+              <h1>Mr. Samuel Livingstone K</h1>
+              <h2>Managing Partner &</h2>
+              <h2>Consultant Optometrist</h2>
+              <p>M.Optom., FVT., FBDO(O/S).,FIACLE</p>
+            </div>
+          </div>              
+          <div class="doc-team-card">
+            <div class="doc-team-card-imgcontent">
+              <div class="doc-team-card-img">
+                <img src="/assets/images/profile-images/teamimg1.png" alt="">
+                <div class="doc-team-overlay">
+                  <a href="#" class="doc-team-icon">
+                    <i class="fas fa-share-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="doc-team-card-content">
+              <h1>Dr.K Sheela Evangeline</h1>
+              <h2>R&D and EBP Coordinator</h2>
+              <p>M.Phil(Opt)., FBDO(O/S)., PhD(Australia)</p>
+            </div>
+          </div>
+          <div class="doc-team-card">
+            <div class="doc-team-card-imgcontent">
+              <div class="doc-team-card-img">
+                <img src="/assets/images/profile-images/teamimg1.png" alt="">
+                <div class="doc-team-overlay">
+                  <a href="#" class="doc-team-icon">
+                    <i class="fas fa-share-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="doc-team-card-content">
+              <h1>K Narendiran Karthick</h1>
+              <h2>Head of Optical</h2>
+            </div>
+          </div>
+          <div class="doc-team-card">
+            <div class="doc-team-card-imgcontent">
+              <div class="doc-team-card-img">
+                <img src="/assets/images/profile-images/teamimg1.png" alt="">
+                <div class="doc-team-overlay">
+                  <a href="#" class="doc-team-icon">
+                    <i class="fas fa-share-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="doc-team-card-content">
+              <h1>Pearlyn Grace Dawson</h1>
+              <h2>System Analyst</h2>
+              <p>B.E., M.E</p>
+            </div>
+          </div>
+      </div>
+      </div>
+
+  </div>
+</section>
+
+<section class="specialized">
+  <div class="specialized-section container">
+    <div class="specialized-container">
+      <h1 class="animate-on-scroll">Our Specialized</h1>
+      <p>
+        Trinity Optics stands out as one of the few optometry clinics in India with a team of highly qualified optometrists. Our practitioners hold advanced degrees, including Master's in Optometry, with specializations in:
+      </p>
+      <div class="specialized-carousal owl-carousel">
+        <div class="specialized-carousal-item">
+          <div class="specialized-card-topic">
+            <div class="specialized-icon">
+              <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <h2>Paediatric assessment</h2>
+          </div>
+          <span
+            >Paediatric optometry clinic at Trinity Optics specializes in eye care for children, offering services like vision screenings, eye exams, and treatment for eye conditions such as amblyopia (lazy eye), strabismus (crossed eyes), and refractive errors exclusively for myopia management.</span
+          >
+          <a class="specialized-readmore" href="/page/specialized.html">
+            <i class="fas fa-arrow-circle-right"></i>
+          </a>
+        </div>
+        <div class="specialized-carousal-item">
+          <div class="specialized-card-topic">
+            <div class="specialized-icon">
+              <i class="fa-solid fa-thumbs-up"></i>
+            </div>
+            <h2>Binocular Vision Assessment and Vision Therapy</h2>
+          </div>
+          <span
+            >Addressing binocular vision disorders such as convergence insufficiency, accommodative disorders, and intermittent squints is quite important. Extensive examinations are performed at our clinic.</span
+          >
+          <a class="specialized-readmore" href="/page/specialized.html">
+            <i class="fas fa-arrow-circle-right"></i>
+          </a>
+        </div>
+        <div class="specialized-carousal-item">
+          <div class="specialized-card-topic">
+            <div class="specialized-icon">
+              <i class="fa-solid fa-hard-drive"></i>
+            </div>
+            <h2>Scientific Dispensing</h2>
+          </div>
+
+          <span
+            >Accredited by the Association of British Dispensing Opticians (ABDO), ensuring the highest standards in eyewear selection and fitting. Prescribing prisms to treat vergence anomalies, double vision, and as part of an eye exercise regimen is one of our stand-out practices.</span
+          >
+          <a class="specialized-readmore" href="/page/specialized.html">
+            <i class="fas fa-arrow-circle-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>  
+
+<section class="expertise">
+  <div class="expertise-content">
+    <div class="expertise-content-heading container">
+      <h1>Our Expertise</h1>
+      <p>We are dedicated to comprehensive eye care and offer specialized services.</p></div>
+    <div class="expertise-container">
+      <div class="expertise-container1 container">
+        <div class="expertise-container-content1">
+          <div class="expertise-container-youngbrain">
+            <h1>Young Brain Vision Therapy Unit</h1>
+            <p>Provides extensive vision therapy programs for children with developmental delays, visual and oculomotor dysfunctions.</p>
+          </div>
+          <div class="expertise-container-lowvision">
+            <div class="expertise-container-lowvision-content">
+              <img src="/assets/images/lowvisionrehabilitation.jpg" alt="">
+              <h1>Low Vision<br/> Rehabilitation</h1>
+            </div>
+            <p>At Trinity Optics, we are committed to helping individuals with visual impairments achieve greater independence and enhance their quality of life. Through our specialized low vision services, we provide personalized assessments and offer a wide range of optical and non-optical aids tailored to each patient’s unique needs.</p>
+  
+          </div>
+        </div>
+        <div class="expertise-container-content2">
+          <div class="expertise-container-img "></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="Lab-Lense">
+  <div class="Lab-Lense-heading container">
+    <h1>Trinity optics Rx lab and Range of Lenses at Trinity Optics </h1>
+    <p>Purpose: For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+  </div>
+  <div class="Lab-Lense-carousal owl-carousel">
+    <div class="Lab-Lense-item1 lab-img">
+      <div class="Lab-Lens-overlay">
+        <a href="#" class="Lab-Lens-icon">
+          <h1>Single Vision</h1>
+        </a>
+        <div class="Lab-Lens-Purpose">
+          <h1>Purpose</h1>
+          <p>For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+        </div>
+      </div>
+    </div>
+    <div class="Lab-Lense-item2 lab-img">
+                <div class="Lab-Lens-overlay">
+        <a href="#" class="Lab-Lens-icon">
+          <h1>Single Vision</h1>
+        </a>
+        <div class="Lab-Lens-Purpose">
+          <h1>Purpose</h1>
+          <p>For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+        </div>
+      </div>
+    </div>
+    <div class="Lab-Lense-item3 lab-img">
+      <div class="Lab-Lens-overlay">
+        <a href="#" class="Lab-Lens-icon">
+          <h1>Single Vision</h1>
+        </a>
+        <div class="Lab-Lens-Purpose">
+          <h1>Purpose</h1>
+          <p>For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+        </div>
+      </div>
+    </div>
+    <div class="Lab-Lense-item4 lab-img">
+                <div class="Lab-Lens-overlay">
+        <a href="#" class="Lab-Lens-icon">
+          <h1>Single Vision</h1>
+        </a>
+        <div class="Lab-Lens-Purpose">
+          <h1>Purpose</h1>
+          <p>For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="Blog">
+  <div class="Blog-heading">
+    <h1>Blogs & Article </h1>
+  </div>
+  <div class="blog-container container owl-carousel">
+    <div class="blog-container-item">
+      <div class="blog-container-item-img">
+        <img src="/assets/images/blog-card.svg" alt=""></div>
+      <div class="blog-container-content">
+        <div class="blog-container-item-discription">
+          <a href="/page/blog.html">Understanding Refractive Errors</a>
+          <p><i class="ri-arrow-right-line"></i> Read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="blog-container-item">
+      <div class="blog-container-item-img">
+        <img src="/assets/images/blog-card.svg" alt=""></div>
+      <div class="blog-container-content">
+        <div class="blog-container-item-discription">
+          <a href="/page/blog.html">Progression of Myopia and Advances in Myopia Control Lenses</a>
+          <p><i class="ri-arrow-right-line"></i> Read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="blog-container-item">
+      <div class="blog-container-item-img">
+        <img src="/assets/images/blog-card.svg" alt=""></div>
+      <div class="blog-container-content">
+        <div class="blog-container-item-discription">
+          <a href="/page/blog.html">Vision After 40 Years</a>
+          <p><i class="ri-arrow-right-line"></i> Read more</p>
+        </div>
+      </div>
+    </div>
+    <div class="blog-container-item">
+      <div class="blog-container-item-img">
+        <img src="/assets/images/blog-card.svg" alt=""></div>
+      <div class="blog-container-content">
+        <div class="blog-container-item-discription">
+          <a href="/page/blog.html">LASIK vs. Contact Lenses</a>
+          <p>Learn More</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="youtube-section">
+  <div class="youtube-section1 container">
+  <div class="youtube-container">
+    <div class="play-button">
+      <i class="fas fa-play-circle"></i>
+    </div>
+    <div class="youtube-discription">Trinity Optics is an expertise in Primary Eye care service. We have a
+      team of well qualified Optoms from various renowned Institutions such
+      as CMCH Vellore, Sankara Nethralaya, Sri Ramachandra University,
+      Manipal University, Flinders University (Australia) and from other
+      reputed Institutions.</div>
+  </div>
+  </div>
+  
+  <div class="youtube-footer container">
+    <div class="youtube-footer-img animate-on-scroll"></div>
+  </div>
+</section>
+
+<div id="footer"></div>
+    <script>
+      fetch("./components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/animation.js"></script>
+
+    <!-- <div id="footer"></div>
+    <script>
+      fetch("./components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script> -->
+  </body>
 </html>

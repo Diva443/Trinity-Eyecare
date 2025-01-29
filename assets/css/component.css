@@ -1,0 +1,458 @@
+
+  /*=============== Header===============*/ 
+/* 🔹 General Navbar Styling */
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🔹 Navbar Scroll Effect */
+.topnav.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Navigation Container */
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+}
+
+/* 🔹 Logo */
+.nav_logo {
+  background-image: url('/assets/images/logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 18%;
+}
+
+/* 🔹 Navigation Menu */
+.nav_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+/* 🔹 Navigation Links */
+.nav_menu a {
+  color: #274760;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 450;
+  padding: 12px 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav_menu a:hover {
+  color: #1b3a57;
+}
+
+/* 🔹 Active Link */
+.active {
+  background-color: transparent;
+  color: #1b3a57;
+}
+
+/* 🔹 Dropdown Styling */
+.dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* 🔹 Dropdown Button */
+.dropbtn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  font-size: 17px;
+  font-weight: 450;
+  color: #274760;
+  padding: 14px 16px;
+  pointer-events: none;
+}
+
+/* 🔹 Dropdown Arrow */
+.drop-arrow {
+  font-size: 18px;
+  font-weight: 450;
+  color: #274760;
+  transition: transform 0.4s;
+}
+
+/* 🔹 Dropdown Content */
+.dropdown-content {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 200px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  pointer-events: none;
+  padding: 10px;
+}
+
+/* 🔹 Dropdown Items */
+.dropdown-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* 🔹 Dropdown Links */
+.dropdown-items a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.dropdown-items a:hover {
+  background-color: #f1f1f1;
+}
+
+/* 🔹 Dropdown Image */
+.dropdown-img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* 🔹 Show Dropdown on Hover */
+.dropdown:hover .drop-arrow {
+  transform: rotate(180deg);
+}
+
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* 🔹 Hamburger Icon (Hidden by Default) */
+.icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: black;
+}
+
+/* 🔹 Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .topnav {
+    background-color: white;
+    width: 100%;
+  }
+
+  /* 🔹 Show Menu on Toggle */
+  .nav_menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+  .nav_menu.show {
+    display: flex;
+  }
+
+  /* 🔹 Adjust Logo for Mobile */
+  .nav_logo {
+    width: 40%;
+    height: 100px;
+    background-size: contain;
+  }
+
+  /* 🔹 Make Dropdowns Expand on Click */
+  .dropdown {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .dropbtn {
+    width: 100%;
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .drop-arrow {
+    float: right;
+    transition: transform 0.3s;
+  }
+
+  .dropdown-content {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    opacity: 1;
+    transform: none;
+  }
+
+  .dropdown-items {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .dropdown-items a {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .dropdown-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* 🔹 Show/Hide Mobile Menu */
+  .icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+}
+
+
+
+
+/*=============== footer ===============*/
+.footer {
+    position: relative;
+    height: 600px;
+  }
+  .footer-content{
+    height: 100%;
+  }
+  
+  .footer-content-bg{
+    height: 100%; /* Match section height */
+    width: auto; /* Maintain aspect ratio */
+    background-image: url('/assets/image/herobanner.svg');
+    background-size: cover; /* Scale image to fit */
+    background-position: center; 
+    background-repeat: no-repeat; /* Avoid tiling the image */
+    overflow: hidden; 
+  }
+  .footer-appoinment{
+    position: absolute;
+    width: 1233px;
+    height: 350px;
+    top: -15%;
+    background-image: linear-gradient(  #8ABEF1,#ffffff00);
+    opacity: 0.33;
+    z-index: 0;
+  }
+  .footer-appoinmet-content{
+    position: absolute;
+    top:-14%;
+  height: 135px;
+  max-width: 1200px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5%;
+  }
+  .footer-appoinment-content-1  {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+  }
+  /* .footer-appoinment-content-2{
+    gap: 10px;
+  } */
+  .footer-appoinment-content-11{
+    display: flex;
+    flex-direction: row;
+    color: #F88E95;
+    gap: 40px;
+  }
+  .footer-appoinment-content-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+  }
+  .footer-appoinment-content-number{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .footer-appoinment-content-number h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #F88E95;
+  }
+  .footer-appoinment-content-number h2{
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  }
+  .footer-appoinment-content-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-size: 30px;
+  }
+  .footer-appoinment-content-icons i:hover{
+    color: #fff;
+  }
+  
+  .footer-appoinment-content-2 h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #005292;
+  }
+  .appoinment-input{
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    border-radius: 500px;
+  }
+  .footer-content-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    gap:50px
+  }
+  .footer-content-info-col{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-content-info h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.66px;
+  color: #005292;
+  margin-bottom: 20px;
+  }
+  
+  .footer-content-info p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  display: flex;
+  align-items: center;
+  color: #005292;
+  }
+  .footer-content-info-col1{
+    width:400px;
+    margin-bottom: 30px;
+  }
+  .footer-content-info-col3{
+    width: 280px;
+    margin-bottom: 30px;
+  }
+  .flogo{
+    width: 388px;
+    height: 83px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .footer-icons i{
+   font-size: 26px;
+   color: #F88E95;
+  }
+  .footer-content-info-contactus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .footer-content-info-porur,.footer-content-info-Keelkattali,.footer-content-info-kumnanchavadi{
+    justify-items:end;
+  }
+  
+  .copyright{
+    display: flex;
+    height: 80px;
+    width: 1100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+  
+  }
+  .copyright-content1{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.42px;
+  color: #100C08;
+  }
+  
+  
