@@ -1,7 +1,7 @@
 
   /*=============== Header===============*/ 
 /* 🔹 General Navbar Styling */
-.topnav {
+ .topnav {
   position: fixed;
   top: 0;
   left: 0;
@@ -268,7 +268,7 @@
   .footer-content-bg{
     height: 100%; /* Match section height */
     width: auto; /* Maintain aspect ratio */
-    background-image: url('/assets/image/herobanner.svg');
+    background-image: url('/assets/images/vectors/herobanner.svg');
     background-size: cover; /* Scale image to fit */
     background-position: center; 
     background-repeat: no-repeat; /* Avoid tiling the image */
@@ -276,105 +276,123 @@
   }
   .footer-appoinment{
     position: absolute;
-    width: 1233px;
-    height: 350px;
-    top: -15%;
-    background-image: linear-gradient(  #8ABEF1,#ffffff00);
-    opacity: 0.33;
-    z-index: 0;
+    width: 992px;
+    height: 250px;
+    top: -41.5%;
+    left: calc(50% - 992px/2);
+    background-image: url('/assets/images/vectors/footer-banner-1.svg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
   }
+
   .footer-appoinmet-content{
     position: absolute;
-    top:-14%;
   height: 135px;
   max-width: 1200px;
   width: 100%;
+  height: 100%;
   background-color: transparent;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   gap: 5%;
   }
-  .footer-appoinment-content-1  {
-    display: flex;
-    flex-direction: row;
-    margin-right: 50px;
-  }
-  /* .footer-appoinment-content-2{
-    gap: 10px;
-  } */
-  .footer-appoinment-content-11{
-    display: flex;
-    flex-direction: row;
-    color: #F88E95;
-    gap: 40px;
-  }
-  .footer-appoinment-content-icon{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    font-size: 20px;
-  }
-  .footer-appoinment-content-number{
-    display: flex;
-    flex-direction: column;
-  
-  }
-  .footer-appoinment-content-number h3{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 28px;
+  .footer-img{
+    background-image: url('/assets/images/profile-images/footer-profile-image.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+    width: 488px;
+    margin-bottom:17.5%;
+}
+.footer-appoinment-section{
   display: flex;
-  align-items: center;
-  color: #F88E95;
-  }
-  .footer-appoinment-content-number h2{
-  
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 25px;
+  flex-direction: column;
+  height: 60%;
+  width: 38%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-appoinment1{
+width: 180px;
+height: 82px;
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+box-shadow: 0px 4px 8px #8B8B8B;
+border-radius: 10px;
+margin-left: 22%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.footer-appoinment1 img{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 42px;
+  width: 125px;
+}
+.footer-appoinment1 h2{
+  width: 63%;
+}
+
+.footer-appoinment1 p,.footer-appoinment1 h2{
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+display: flex;
+align-items: center;
+color: #274760;
+text-align: left;
+
+}
+.rating{
+  width: 63%;
   display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  }
-  .footer-appoinment-content-icons{
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
-    font-size: 30px;
-  }
-  .footer-appoinment-content-icons i:hover{
-    color: #fff;
-  }
-  
-  .footer-appoinment-content-2 h1{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checked {
+  color: #EFAB37;
+}
+.stars{
   display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+}
+.stars span{
+  font-size: 13px;
+}
+.footer-appoinment-icons{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-around;
   align-items: center;
-  color: #005292;
-  }
-  .appoinment-input{
-    width: 400px;
-    height: 60px;
-    background-color: white;
-    border-radius: 500px;
-  }
+}
+.footer-appoinment-icons a{
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  color:#F88E95 ;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   .footer-content-info{
     display: flex;
     flex-direction: row;
     margin-top: 15%;
-    gap:50px
+    gap:50px;
+    justify-content: space-around;
   }
   .footer-content-info-col{
     display: flex;
@@ -382,11 +400,11 @@
   }
   .footer-content-info h3{
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   line-height: 20px;
   letter-spacing: 0.66px;
-  color: #005292;
+  color: #274760;
   margin-bottom: 20px;
   }
   
@@ -395,34 +413,26 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
   display: flex;
-  align-items: center;
-  color: #005292;
+  margin-bottom: 5px;
+  gap: 10px;
+  color: #274760;
   }
   .footer-content-info-col1{
     width:400px;
-    margin-bottom: 30px;
   }
-  .footer-content-info-col3{
-    width: 280px;
-    margin-bottom: 30px;
-  }
-  .flogo{
-    width: 388px;
-    height: 83px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-icons{
+  .footer-content-info-col2{
+    width: 400px;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    flex-direction: column;
+    gap: 30px;
   }
-  .footer-icons i{
-   font-size: 26px;
-   color: #F88E95;
+
+  .footer-content-info-col2 i{
+  font-size: 18px;
+  color: #274760;
   }
+
   .footer-content-info-contactus{
     display: flex;
     flex-direction: column;
@@ -445,14 +455,13 @@
   }
   .copyright-content1{
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
   display: flex;
   align-items: center;
   letter-spacing: 0.42px;
-  color: #100C08;
+  color: #274760;
   }
   
   

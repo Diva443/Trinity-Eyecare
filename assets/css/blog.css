@@ -1,0 +1,338 @@
+.blog-breadcrumb{
+    background-image: url('/assets/image/bread-crumb-banner.svg');
+    height: 500px;
+    width: 100%;
+    background-position:center 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    .blog-banner-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 40%;
+        justify-content: space-around;
+    }
+    .blog-banner-content h1{
+        font-size: 40px;
+        color: #274760;
+        font-weight: 700    ;
+    }
+    .blog-appoinment{
+        height: auto;
+        margin-top: 50px;
+    }
+    .blog-appoinment-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width:100%;
+        height: auto;
+    }
+    .blog-appoinment-1{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .blog-appoinment-1 h1{
+        font-size: 24px;
+        font-weight: 400;
+        color: #274760;
+        font-style: italic;
+    }
+    .blog-appoinment-1 img{
+        background-image: url('/assets/image/teamimg1.png');
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+    }
+    .blog-social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 20%;
+        font-size: 25px;
+        color: #274760;
+    }
+    
+    .blog-appoinment-2{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .line-dot{
+        height: 1px;
+        background-color: #274760;
+        width: 35%;
+    }
+    .line-dot:after{
+        content: '';
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        background: #274760;
+        margin-top: -4px;
+        float: right;
+    }
+    
+    .blog-appoinment-button{
+        width: 40%;
+        height: 57px;
+        border-radius: 10px;
+        background-color: #63AB45;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+        border-color: #63AB45;
+    }
+    
+    .blog-section{
+        margin-top: 40px;
+        height: auto;
+    }
+    
+    .blog-section-content{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .blog-section-main{
+        width: 75%;
+        height: auto;
+    }
+    
+    .blog-section-main-content{
+        height: auto;
+        width: 100%;
+        color: #274760;
+    }
+    .blog-banner-image1{
+        width: 90%;
+        height: 340px;
+        border-radius: 20px;
+        background-image: url('/assets/image/pediatric-image.svg');
+        background-position: 10% center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .blog-section-main-content h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    
+    .blog-section-main-content h5{
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+    .blog-section-main-content h3{
+        font-size: 24px;
+        font-weight: 400;
+        color: #F88E95;
+    }
+    
+    
+    .type-content{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .types-refractive-error h1{
+        color: #F88E95;
+    }
+    .types-refractive-error h3{
+        font-size: 18px;
+    }
+    .types-refractive-error h2{
+        font-size: 30px;
+        font-weight: 700;
+        color: #274760;
+    }
+    .types-refractive-error span{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .types-refractive-error h4{
+        color: #000;
+    }
+    
+    .myopia-content-footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+    .myopia-content-footer-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .myopia-content-footer-1 img{
+        width: 50%;
+        height: 300px;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    .m-footer-content{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .m-footer-content h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #274760;
+    }
+    
+    
+    
+    .blog-section-sidebar{
+        display: flex;
+        flex-direction: column;
+        width: 24%;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .blog-section-quickaccess{
+        display: flex;
+        width: 100%;
+        height: 400px;
+        flex-direction: column;
+        justify-content: space-around; 
+    }
+    .blog-section-quickaccess h1,.blog-section-buttons h1{
+        font-size: 20px;
+        font-weight: 700;
+        color: #274760;
+    }
+    .line{
+        width: 98%;
+        height: 2px;
+        background-color: #274760;
+    }
+    .quickacess-list{
+    display: flex;
+    flex-direction: column;
+    height: 74%;
+    justify-content: space-around;
+    }
+    .quickacess-list li a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        color:#274760;
+    }
+    .blog-section-buttons{
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .blog-section-buttons-content{
+        display: flex;
+        flex-direction: column;
+        height: 94%;
+        justify-content: space-between;
+    }
+    
+    .blog-section-buttons-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .blog-button{
+        width: 100%;
+        height: 200px;
+        border-radius: 30px;
+    }
+    .bb-img{
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        cursor:pointer;
+        border-radius: 30px;
+    }
+    .blog-button-img1{
+        background-image: url('/assets/image/blogimg1.svg');
+    }
+    .blog-button-img2{
+        background-image: url('/assets/image/blogimg2.svg');
+    }
+    .blog-button-img3{
+        background-image: url('/assets/image/blogimg3.svg');
+    }
+    .blog-button-img4{
+        background-image: url('/assets/image/blogimg4.svg');
+    }
+    
+    .blog-footer-container{
+        height: 170px;
+        width: 100%;
+        background-color: #274760;
+        border-radius: 20px ;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .details{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: center;
+        color: #fff;
+        gap: 15px;
+    }
+    .details i{
+        font-size: 39px;
+    }
+    
+    .details1{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 5px;
+    }
+    .details1 h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .details1 h3{
+        font-size: 15px;
+        font-weight: 400;
+    }

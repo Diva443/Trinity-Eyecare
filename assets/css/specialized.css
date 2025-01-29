@@ -1,0 +1,397 @@
+body{
+    background-color: #fff;
+}
+
+.specialized-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.specialized-section h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+.specialized-section-buttons{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+}
+.specialized-section-buttons h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #274760;
+}
+.specialized-button{
+    height:150px;
+    width: 190px;
+    border-radius: 30px;
+    border: 2px #76BFFC;
+}
+.specialized-button:hover{
+    cursor: pointer;
+}
+.specialized-button-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.specialized-button-img1{
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/pediatric-assessment.svg');
+}
+.specialized-button-img2{
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/binocular-vision.svg');
+}.specialized-button-img3{
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/scientific-dispensing.svg');
+}.specialized-button-img4{
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/contact-lenspractice.svg');
+}.specialized-button-img5{
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/glaucoma-retina.svg');
+}
+.specialized-overlay{
+    position: absolute;
+    background-color:#c1c1c194;
+    width: 100%;
+    height: auto;
+}
+
+.specialized-section-content{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.specialized-content-1{
+    width: 100%;
+    height: auto;
+    background-color: #274760;
+}
+
+.pediatric-assessment{
+display: flex;
+flex-direction: column;
+height: auto;
+width: 100%;
+background-color: #fff;
+justify-content: space-around;
+align-items: center;
+}
+.pediatric-assessment p{
+    width: 95%;
+    margin-top: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.pediatric-assessment-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.pediatric-assessment-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+.pediatric-assessment-heading img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pediatric-img{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-image:url('/assets/image/pediatric-image.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pediatric-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.pediatric-content-1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+.pediatric-content-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-img1{
+    background-image:url('/assets/image/pediatric-img1.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+    opacity: 72%;
+}
+.p-img2{
+    background-image:url('/assets/image/pediatric-img2.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+.pediatric-age-content{
+    width: 100%;
+    height: 170px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+    color: #000;
+}
+.pediatric-age-content h2{
+    margin-left: 90px;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.pediatric-age-content1 h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.pediatric-age-content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.pediatric-age-content1 img{
+    width: 45px;
+    height: 45px;
+}
+
+.binocular-vision-assessment{
+    display: flex;
+flex-direction: column;
+height: auto;
+width: 100%;
+background-color: #fff;
+justify-content: space-around;
+align-items: center;
+}
+.binocular-vision-assessment p{
+    width: 95%;
+    margin-top: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;  
+}
+.binocular-vision-assessment-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.binocular-vision-assessment-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.binocular-vision-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.binocular-vision-content-1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+.binocular-vision-content-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.scientific-dispensing-assessment{
+    display: flex;
+flex-direction: column;
+height: auto;
+width: 100%;
+background-color: #fff;
+justify-content: space-around;
+align-items: flex-start;
+}
+
+.scientific-dispensing-assessment h3{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    color: #000;
+}
+
+.scientific-dispensing-assessment-1{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.scientific-dispensing-assessment-1-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    gap: 40px;
+}
+.scientific-dispensing-assessment-1-right{
+    width: 30%;
+    height: 500px;
+    background-image: url('/assets/image/scientific-dispensing-1.svg');
+    background-size: cover;
+    background-position:center ;
+    border-radius:50px ;
+}
+.scientific-dispensing-assessment-1-right img{
+    height: 350px;
+    width: 70%;
+    margin-left: -50%;
+    margin-top: 50%;
+}
+.scientific-dispensing-assessment-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.scientific-dispensing-assessment-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.scientific-dispensing-assessment-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.scientific-dispensing-assessment-2-left{
+    width: 34%;
+    height: 500px;
+    background-image: url('/assets/image/scientific-dispensing-1.svg');
+    background-size: cover;
+    background-position:center ;
+    border-radius:50px ;
+}
+
+.scientific-dispensing-assessment-2-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+    width: 60%;
+}
+.scientific-dispensing-assessment-card{
+    width: 350px;
+    height: 400px;
+    border: 1px solid #E1F1FF;
+    filter: drop-shadow(0px 4px 2px #E0F1FF);
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    color: #000;
+    gap: 15px;
+}
+.scientific-dispensing-assessment-card img{
+    width: 55px;
+    height: 55px;
+    top: -4%;
+    left: -4%;
+    position: absolute;
+}
+
+.scientific-dispensing-assessment-card span{
+    font-size: 14px;
+    font-weight: 300;
+}
+.scientific-dispensing-assessment-card h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.scientific-dispensing-assessment .points {
+    margin-top: 40px;
+    font-size:20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #000;
+}
+
+.scientific-dispensing-assessment .points span::before{
+    content: "•";
+}
+
+

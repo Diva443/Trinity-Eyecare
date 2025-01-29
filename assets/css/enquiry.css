@@ -1,0 +1,392 @@
+.enquiry-banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 600px; /* Fix the height of the section */
+    background-image: url('/assets/image/enquirybanner.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enquiry-banner1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.enquiry-banner-content{
+    display: flex;
+    width: 54%;
+    flex-direction: column;
+    gap: 150px;
+    color: #fff;
+}
+.enquiry-banner-content h1{
+    font-size: 32px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 30px;
+}
+.enquiry-banner-content-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+}
+.enquiry-banner-content-1 p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.line-dot{
+    height: 1px;
+    background-color: #fff;
+    width: 49%;
+}
+.line-dot:after{
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: -4px;
+    float: right;
+}
+
+.enquiry-banner-querybox{
+    margin-top: 180px;
+    height: 480px;
+    width:400px;
+    box-sizing: border-box;
+    background: #ecf3fe;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3px;
+}
+.enquiry-banner-querybox-header{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.enquiry-banner-querybox-header h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #005292;
+}
+.enquiry-banner-querybox-header h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+.enq-divider{
+    border-left: 2px  solid#005292;
+    height: 40px;
+}
+.enquiry-banner-querybox-input{
+    width: 343px;
+    height: 38px;
+    border-radius: 10px;
+    background-color:#fff;
+    border: 3px #E0E0E0;    
+}
+
+.enquiry-banner-querybox-button{
+    width: 343px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px #E0E0E0; 
+    background-color: green;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.young-brain-updates{
+    position: relative;
+    height: 900px;
+    margin-top: 100px;
+    width: 100%;
+}
+.young-brain-updates-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.young-brain-updates-content1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.young-brain-poster{
+    height: 500px;
+    width: 50%;
+    background-image: url('/assets/image/young_brain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.young-brain-poster-info{
+    display: flex;
+    height: 500px;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    color: #000;
+}
+.young-brain-poster-info h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.young-brain-poster-content{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;    
+}
+.young-brain-poster-content h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+.young-brain-poster-content p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.young-brain-btn{
+    background-color: #63AB45;
+    border-radius: 10px;
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.young-brain-updates-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.young-brain-updates-content2 h1{
+    font-size: 44px;
+    font-weight: 500;
+    color: #000;
+}
+.young-brain-updates-count{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.young-brain-updates-count1{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background-color: #FFF7EB;
+    height: 100px;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 10px;
+}
+.young-brain-updates-count2{
+    width: 360px;
+    background-color: #FFF1F1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.young-brain-updates-count1 h1,.young-brain-updates-count2 h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.young-brain-updates-count1 p,.young-brain-updates-count2 p{
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 5px;
+}
+
+.testimonial{
+    position: relative;
+    height: 950px;
+    background-color: #E4EFFF;
+    display: flex;
+    align-items: center;
+}
+.testimonial-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.testimonial-content h1{
+    color: #000;
+    font-size: 44px;
+    font-weight: 600;
+}
+.testimonial-carousel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    gap: 5%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+.testimonial-carousel-item{
+    height: 350px;
+    background-color: #fff;
+    width: 560px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    margin-left: 50px;
+}
+.testimonial-img{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -45px;
+}
+.testimonial-img img{
+    width: 100px;
+    height: 100px;
+}
+.testimonial-carousel-content{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.testimonial-carousel-content h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.testimonial-carousel-content h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.testimonial-carousel-content p{
+    width: 70%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.rating-star{
+margin-top: 10px;
+}
+.checked{
+    color: orange;
+}
+
+.testimonial-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #005292;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: -50px;
+    z-index: 99;
+}
+
+.enquiry-footer{
+    position: relative;
+    height: 700px; 
+}
+
+.enquiry-footer-appoinment{
+    width: 1233px;
+    height: 300px;
+    background-image: url('/assets/images/vectors/footer-banner-1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: -350px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.enquiry-footer-appoinment-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+    height: 70%;
+}
+.enquiry-footer-appoinment-content h1{
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+}
+.enquiry-footer-img{
+    background-image: url('/assets/image/doctorprofile1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 300px;
+}
+.enquiry-footer-appoinment-icons{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+}
+.enquiry-footer-appoinment-icons i{
+    font-size: 35px;
+    color:#fff;
+}

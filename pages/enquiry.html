@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiry- Trinity Optics</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/component.css" />
+    <link rel="stylesheet" href="/assets/css/enquiry.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <section class="enquiry-banner">
+      <div class="enquiry-banner1 container">
+        <div class="enquiry-banner-content">
+          <h1>
+            Our eye care professionals are committed to delivering exceptional
+            vision care.
+          </h1>
+          <div class="enquiry-banner-content-1">
+            <p>BOOK YOUR APPOINTMENT</p>
+            <div class="line-dot"></div>
+          </div>
+        </div>
+        <div class="enquiry-banner-querybox">
+          <div class="enquiry-banner-querybox-header">
+            <h1>Book Enquiry</h1>
+            <div class="enq-divider"></div>
+            <h2>Appointment</h2>
+          </div>
+          <input class="enquiry-banner-querybox-input" type="text" />
+          <input class="enquiry-banner-querybox-input" type="text" />
+          <input class="enquiry-banner-querybox-input" type="text" />
+          <input class="enquiry-banner-querybox-input" type="text" />
+          <input class="enquiry-banner-querybox-input" type="text" />
+          <input class="enquiry-banner-querybox-input" type="text" />
+          <button class="enquiry-banner-querybox-button">Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="young-brain-updates">
+      <div class="young-brain-updates-content container">
+        <div class="young-brain-updates-content1">
+          <div class="young-brain-poster"></div>
+          <div class="young-brain-poster-info">
+            <h1>YOUNG BRAIN UPDATES!</h1>
+            <div class="young-brain-poster-content">
+              <h1>Young Brain Vision Therapy Unit</h1>
+              <p>
+                Provides extensive vision therapy programs for children with
+                developmental delays, visual and oculomotor dysfunctions.
+              </p>
+              <button class="young-brain-btn">Book Appoinment</button>
+            </div>
+          </div>
+        </div>
+        <div class="young-brain-updates-content2">
+          <h1>Happy Clients of Trinity Optics</h1>
+          <div class="young-brain-updates-count">
+            <div class="young-brain-updates-count1">
+              <h1>1000+</h1>
+              <p>Eye Care Products</p>
+            </div>
+            <div class="young-brain-updates-count2">
+              <h1>5000+</h1>
+              <p>Vision Therapy procedures</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="testimonial-content container">
+        <h1>Testimonial</h1>
+        <div class="testimonial-carousel owl-carousel">
+          <div class="testimonial-carousel-item">
+            <div class="testimonial-img">
+              <img src="/assets/image/teamimg1.png" alt="" />
+            </div>
+            <div class="testimonial-carousel-content">
+              <h1>Jasan</h1>
+              <h2>Founder</h2>
+              <div class="rating-star">
+                <span><i class="fas fa-star checked"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <p>
+                Excellent service and noticeable results. A life-changing
+                experience!
+              </p>
+            </div>
+            <a href="" class="testimonial-icon"
+              ><i class="ri-double-quotes-r"></i
+            ></a>
+          </div>
+
+          <div class="testimonial-carousel-item">
+            <div class="testimonial-img">
+              <img src="/assets/image/teamimg1.png" alt="" />
+            </div>
+            <div class="testimonial-carousel-content">
+              <h1>Jasan</h1>
+              <h2>Founder</h2>
+              <div class="rating-star">
+                <span><i class="fas fa-star checked"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+                <span><i class="fas fa-star"></i></span>
+              </div>
+              <p>
+                Excellent service and noticeable results. A life-changing
+                experience!
+              </p>
+            </div>
+            <a href="" class="testimonial-icon"
+              ><i class="ri-double-quotes-r"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="enquiery-footer">
+      <div class="footer-content">
+        <div class="footer-content-bg">
+          <div class="footer-content1 container">
+            <div class="enquiry-footer-appoinment">
+              <div class="enquiry-footer-appoinment-content">
+                <h1>Clear Vision, Clear Life</h1>
+                <div class="enquiry-footer-appoinment-icons">
+                  <a href="" class="enquiry-icon"
+                    ><i class="fab fa-twitter-square"></i
+                  ></a>
+                  <a href="" class="enquiry-icon"
+                    ><i class="ri-instagram-fill"></i
+                  ></a>
+                  <a href="" class="enquiry-icon"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="" class="enquiry-icon"
+                    ><i class="ri-whatsapp-fill"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="enquiry-footer-img"></div>
+            </div>
+            <div class="footer-content-info">
+              <div class="footer-content-info-col">
+                <div class="footer-content-info-col1">
+                  <img class="flogo" src="/assets/image/logo.png" alt="" />
+                  <h3>We Are Here</h3>
+                  <p>
+                    We provide many exciting services that will leave you with a
+                    bright, white smile on your face!
+                  </p>
+                </div>
+                <div class="footer-content-info-col2">
+                  <p>Helpline No: +91 9003111863</p>
+                  <p>Optom R Kumaran: +91 9382140351</p>
+                  <p>Optom K Sa: +91 9952053068</p>
+                </div>
+              </div>
+              <div class="footer-content-info-col">
+                <h3>Quick Link</h3>
+                <p>About Us</p>
+                <p>Therapy</p>
+                <p>Our Expertise</p>
+                <p>Visionary Vault</p>
+                <p>doc-team</p>
+                <p>Activities</p>
+              </div>
+              <div class="footer-content-info-col">
+                <div class="footer-content-info-col3">
+                  <div class="footer-icons">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>More Inquiry</h3>
+                  </div>
+
+                  <p>+91 9003111863</p>
+                </div>
+                <div class="footer-content-info-col3">
+                  <div class="footer-icons">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <h3>Send Mail</h3>
+                  </div>
+                  <p>trinityoptics@yahoo.com</p>
+                </div>
+                <div class="footer-content-info-col3">
+                  <div class="footer-icons">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Address</h3>
+                  </div>
+                  <p>House 168/170, Avenue 01, Mirpur DOHS, Dhaka Bangladesh</p>
+                </div>
+              </div>
+              <div class="footer-content-info-col">
+                <h3>Contact US</h3>
+                <div class="footer-content-info-contactus">
+                  <p>Porur</p>
+                  <div class="footer-content-info-porur">
+                    <p>M: 8144901861</p>
+                    <p>P: 24766164, 24763777</p>
+                  </div>
+                </div>
+                <div class="footer-content-info-contactus">
+                  <p>Porur</p>
+                  <div class="footer-content-info-Keelkattali">
+                    <p>M: 8144901862</p>
+                    <p>P: 43156689, 22470881</p>
+                  </div>
+                </div>
+                <div class="footer-content-info-contactus">
+                  <p>Porur</p>
+                  <div class="footer-content-info-kumnanchavadi">
+                    <p>M: 8144901863</p>
+                    <p>P: 26790414</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <div class="copyright-content1">
+                ©Copyright 2024 Figma | Design By CStudioss
+              </div>
+              <div class="copyright-content1">Policy . Terms & Condition</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/animation.js"></script>
+  </body>
+</html>

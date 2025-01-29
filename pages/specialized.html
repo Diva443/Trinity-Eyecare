@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specialized- Trinity Optics</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/specialized.css" />
+    <link rel="stylesheet" href="/assets/css/animation.css" />
+    <link rel="stylesheet" href="/assets/css/component.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <section class="breadcrumb-banner">
+      <div class="breadcrumb-banner-bg">
+        <div class="breadcrumb-content container">
+          <div class="breadcrumb-content1">
+            <h1 class="">Our Specialized</h1>
+            <h2>
+              Trinity Optics stands out as one of the few optometry clinics in
+              India with a team of highly qualified optometrists
+            </h2>
+          </div>
+          <div class="specialized-content2"></div>
+        </div>
+      </div>
+    </section>
+    <section class="specialized-section container">
+      <h1>
+        Our practitioners hold advanced degrees, including Master's in
+        Optometry, with specializations in
+      </h1>
+      <div class="specialized-section-buttons">
+        <h1>Sort By:</h1>
+        <button
+          class="specialized-button"
+          id="defaultOpen"
+          onclick="openPage('pediatric-assessment',this)"
+        >
+          <div class="specialized-button-img1 specialized-button-img"></div>
+        </button>
+        <button
+          class="specialized-button"
+          onclick="openPage('binocular-vision',this)"
+        >
+          <div class="specialized-button-img2 specialized-button-img"></div>
+        </button>
+        <button
+          class="specialized-button"
+          onclick="openPage('scientific-dispensing',this)"
+        >
+          <div class="specialized-button-img3 specialized-button-img"></div>
+        </button>
+        <button
+          class="specialized-button"
+          onclick="openPage('contact-lenpractice',this)"
+        >
+          <div class="specialized-button-img4 specialized-button-img"></div>
+        </button>
+        <button
+          class="specialized-button"
+          onclick="openPage('glaucoma-retina',this)"
+        >
+          <div class="specialized-button-img5 specialized-button-img"></div>
+        </button>
+      </div>
+      <div class="specialized-section-content">
+        <div class="specialized-content-1" id="pediatric-assessment">
+          <div class="pediatric-assessment">
+            <div class="pediatric-assessment-heading">
+              <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+              <h1>Pediatric assessment</h1>
+            </div>
+            <p>
+              Paediatric optometry clinic at Trinity Optics specializes in eye
+              care for children, offering services like vision screenings, eye
+              exams, and treatment for eye conditions such as amblyopia (lazy
+              eye), strabismus (crossed eyes), and refractive errors exclusively
+              for myopia management. The clinic uses child-friendly equipment
+              and techniques to ensure a comfortable and engaging experience for
+              young patients.
+            </p>
+            <div class="pediatric-img"></div>
+            <p>
+              Ensuring your child undergoes regular vision screenings is crucial
+              for their overall development. The American Academy of
+              Ophthalmology (AAO) recommends the following screening schedule:
+            </p>
+            <div class="pediatric-content">
+              <div class="pediatric-content-1">
+                <div class="p-img1"></div>
+                <div class="p-img2"></div>
+              </div>
+              <div class="pediatric-content-2">
+                <div class="pediatric-age-content">
+                  <div class="pediatric-age-content1">
+                    <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                    <h1>Newborn to 12 months:</h1>
+                  </div>
+                  <h2>
+                    During routine well-child visits, infants should have their
+                    ocular health assessed, including external inspection,
+                    pupillary examination, corneal light reflection, and
+                    assessment of fixation and following behavior.
+                  </h2>
+                </div>
+                <div class="pediatric-age-content">
+                  <div class="pediatric-age-content1">
+                    <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                    <h1>Ages 1 to 4 years:</h1>
+                  </div>
+                  <h2>
+                    Continue ocular health assessments at each well-child visit.
+                    Instrument-based vision screening can be initiated as early
+                    as age 1.
+                  </h2>
+                </div>
+                <div class="pediatric-age-content">
+                  <div class="pediatric-age-content1">
+                    <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                    <h1>Ages 3 to 5 years:</h1>
+                  </div>
+                  <h2>
+                    Between 3 and 5 years, a child’s vision and eye alignment
+                    should be checked. Visual acuity should be tested as soon as
+                    the child is old enough to read an eye chart. Refractive
+                    error status and interventions are very crucial at this
+                    stage.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <p>
+              Early detection of issues like amblyopia (lazy eye) or strabismus
+              (crossed eyes) is vital, as these conditions can impact visual
+              development and academic performance.
+            </p>
+            <p>
+              At Trinity Optics, our specialized optometrists are equipped to
+              perform comprehensive paediatric eye examinations in line with AAO
+              guidelines. Safeguard your child's vision by scheduling an
+              appointment with us today
+            </p>
+          </div>
+        </div>
+        <div class="specialized-content-1" id="binocular-vision">
+          <div class="binocular-vision-assessment">
+            <div class="binocular-vision-assessment-heading">
+              <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+              <h1>Binocular Vision Assessment and Vision Therapy</h1>
+            </div>
+            <p>
+              "Addressing binocular vision disorders such as convergence
+              insufficiency, accommodative disorders, and intermittent squints
+              is quite important. Extensive examinations are performed at our
+              clinic
+            </p>
+            <div class="pediatric-img"></div>
+            <p>
+              Binocular and orthoptic examinations are crucial for assessing the
+              coordination and teamwork of your eye muscles. These assessments
+              help detect potential binocular vision disorders, which may cause
+              symptoms such as eye strain, headaches, tired eyes, intermittent
+              blurry vision, difficulty maintaining focus, or even sleepiness
+              after prolonged visual tasks.
+            </p>
+            <div class="binocular-vision-content">
+              <div class="binocular-vision-content-1">
+                <div class="p-img1"></div>
+                <div class="p-img2"></div>
+              </div>
+              <div class="binocular-vision-content-2">
+                <p>
+                  Additionally, stereopsis assessment—the ability to perceive
+                  depth and 3D vision—is an integral part of a comprehensive
+                  binocular vision evaluation. Impaired stereopsis can affect
+                  tasks like reading, sports performance, or any activity
+                  requiring precise hand-eye coordination.
+                </p>
+                <p>
+                  At Trinity Optics, we conduct detailed binocular vision
+                  assessments to diagnose accommodation and vergence disorders.
+                  These conditions, once identified, are treated using a
+                  combination of in-office vision therapy and tailored home
+                  vision therapy exercises. Our clinic also offers specialized
+                  tools to enhance stereopsis, helping patients achieve optimal
+                  depth perception and visual efficiency.
+                </p>
+              </div>
+            </div>
+            <p>
+              Make an appointment today for a thorough binocular vision and
+              stereopsis assessment at Trinity Optics. We take pride in being
+              one of the few clinics equipped with advanced vision therapy
+              supplies. Visit our store to explore our range of home vision
+              therapy tools!
+            </p>
+          </div>
+        </div>
+        <div class="specialized-content-1" id="scientific-dispensing">
+          <div class="scientific-dispensing-assessment">
+            <div class="scientific-dispensing-assessment-1">
+              <div class="scientific-dispensing-assessment-1-left">
+                <div class="scientific-dispensing-assessment-heading">
+                  <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                  <h1>Scientific Dispensing</h1>
+                </div>
+                <p>
+                  Accredited by the Association of British Dispensing Opticians
+                  (ABDO), ensuring the highest standards in eyewear selection
+                  and fitting. Prescribing prisms to treat vergence anomalies,
+                  double vision, and as part of an eye exercise regimen is one
+                  of our stand-out practices.
+                </p>
+              </div>
+              <div class="scientific-dispensing-assessment-1-right">
+                <img src="/assets/image/scientific-dispensing-2.svg" alt="" />
+              </div>
+            </div>
+            <h3>
+              At Trinity Optics, we believe that every individual deserves
+              spectacles that not only enhance their vision but also complement
+              their unique facial structure, lifestyle, and visual needs. Our
+              expert opticians carefully assess several key factors to provide
+              the perfect fit for both adults and children.
+            </h3>
+            <div class="scientific-dispensing-assessment-2">
+              <div class="scientific-dispensing-assessment-2-left"></div>
+              <div class="scientific-dispensing-assessment-2-right">
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                  <h1>Facial Measurements and Dimensions</h1>
+                  <span
+                    >Proper facial measurements are crucial for ensuring a
+                    comfortable and secure fit. We take detailed measurements,
+                    including</span
+                  >
+                  <span>
+                    <h1>Pupillary Distance (PD):</h1>
+                    Ensures proper lens alignment for clear, comfortable vision.
+                    <h1>Bridge Width and Temple Length:</h1>
+                    For a snug fit without slipping or pinching.
+                    <h1>Face Shape and Proportions:</h1>
+                    Helps select frames that enhance appearance while providing
+                    optimal functionality</span
+                  >
+                  <span
+                    >For children, special attention is given to ensure the
+                    frames sit comfortably on smaller noses and ears, with
+                    lightweight and durable materials.</span
+                  >
+                </div>
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                  <h1>Lifestyle Considerations</h1>
+                  <span>
+                    <h1>Adults:</h1>
+                    We consider occupational needs, such as blue-light blocking
+                    lenses for digital device users, progressive lenses for
+                    those needing multifocal correction, and sports eyewear for
+                    active individuals.
+                  </span>
+                  <span>
+                    <h1>Children:</h1>
+                    Durable, flexible, and impact-resistant frames are
+                    recommended for active lifestyles. For young athletes, we
+                    offer sports goggles with prescription lenses.</span
+                  >
+                </div>
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                  <h1>Visual Requirements</h1>
+                  <span
+                    >Single vision, bifocal, or progressive lenses based on the
+                    prescription.</span
+                  >
+                  <span>
+                    Special lens coatings like anti-reflective, UV protection,
+                    or scratch resistance for added functionality and longevity.
+                  </span>
+                  <span
+                    >High-index lenses for stronger prescriptions to keep
+                    glasses lightweight and comfortable.</span
+                  >
+                </div>
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icon/pediatric-assessment.svg" alt="" />
+                  <h1>Facial Measurements and Dimensions</h1>
+                  <span
+                    >Proper facial measurements are crucial for ensuring a
+                    comfortable and secure fit. We take detailed measurements,
+                    including</span
+                  >
+                  <span>
+                    <h1>Pupillary Distance (PD):</h1>
+                    Ensures proper lens alignment for clear, comfortable vision.
+                    <h1>Bridge Width and Temple Length:</h1>
+                    For a snug fit without slipping or pinching.
+                    <h1>Face Shape and Proportions:</h1>
+                    Helps select frames that enhance appearance while providing
+                    optimal functionality</span
+                  >
+                  <span
+                    >For children, special attention is given to ensure the
+                    frames sit comfortably on smaller noses and ears, with
+                    lightweight and durable materials.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="points">
+              <span>
+                Comprehensive Eye Care: From vision assessments to spectacle
+                dispensing, we provide end-to-end services.<br />
+              </span>
+              <span>
+                Expert Guidance: Our experienced opticians help you choose the
+                best eyewear to meet your needs.<br />
+              </span>
+              <span>
+                Child-Friendly Environment: We ensure children feel comfortable
+                and engaged during the fitting process.<br />
+              </span>
+            </div>
+            <h3>
+              Visit Trinity Optics today to find your perfect pair of glasses.
+              Let us help you and your family see the world more clearly and
+              stylishly
+            </h3>
+          </div>
+        </div>
+        <div class="specialized-content-1" id="contact-lenpractice">
+          <h1>this is sample content 4</h1>
+        </div>
+        <div class="specialized-content-1" id="glaucoma-retina">
+          <h1>this is sample content 5</h1>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-content-bg">
+          <div class="footer-content1 container">
+            <div class="footer-content-info">
+              <div class="footer-content-info-col">
+                <div class="footer-content-info-col1">
+                  <img class="flogo" src="/assets/image/logo.png" alt="" />
+                  <h3>We Are Here</h3>
+                  <p>
+                    We provide many exciting services that will leave you with a
+                    bright, white smile on your face!
+                  </p>
+                </div>
+                <div class="footer-content-info-col2">
+                  <p>Helpline No: +91 9003111863</p>
+                  <p>Optom R Kumaran: +91 9382140351</p>
+                  <p>Optom K Sa: +91 9952053068</p>
+                </div>
+              </div>
+              <div class="footer-content-info-col">
+                <h3>Quick Link</h3>
+                <p>About Us</p>
+                <p>Therapy</p>
+                <p>Our Expertise</p>
+                <p>Visionary Vault</p>
+                <p>doc-team</p>
+                <p>Activities</p>
+              </div>
+              <div class="footer-content-info-col">
+                <div class="footer-content-info-col3">
+                  <div class="footer-icons">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>More Inquiry</h3>
+                  </div>
+
+                  <p>+91 9003111863</p>
+                </div>
+                <div class="footer-content-info-col3">
+                  <div class="footer-icons">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <h3>Send Mail</h3>
+                  </div>
+                  <p>trinityoptics@yahoo.com</p>
+                </div>
+                <div class="footer-content-info-col3">
+                  <div class="footer-icons">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Address</h3>
+                  </div>
+                  <p>House 168/170, Avenue 01, Mirpur DOHS, Dhaka Bangladesh</p>
+                </div>
+              </div>
+              <div class="footer-content-info-col">
+                <h3>Contact US</h3>
+                <div class="footer-content-info-contactus">
+                  <p>Porur</p>
+                  <div class="footer-content-info-porur">
+                    <p>M: 8144901861</p>
+                    <p>P: 24766164, 24763777</p>
+                  </div>
+                </div>
+                <div class="footer-content-info-contactus">
+                  <p>Porur</p>
+                  <div class="footer-content-info-Keelkattali">
+                    <p>M: 8144901862</p>
+                    <p>P: 43156689, 22470881</p>
+                  </div>
+                </div>
+                <div class="footer-content-info-contactus">
+                  <p>Porur</p>
+                  <div class="footer-content-info-kumnanchavadi">
+                    <p>M: 8144901863</p>
+                    <p>P: 26790414</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <div class="copyright-content1">
+                ©Copyright 2024 Figma | Design By CStudioss
+              </div>
+              <div class="copyright-content1">Policy . Terms & Condition</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("specialized-content-1");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("specialized-button");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+  </body>
+</html>
