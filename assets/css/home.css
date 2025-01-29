@@ -1402,14 +1402,6 @@ color: #787878;
   gap: 20px;
 }
 
-
-.blog-container-item-discription h4{
-font-size: 18px;
-color:#005292;
-font-weight: 600;
-}
-
-
 .blog-container-item-discription{
   display: flex;
   width: 100%;
@@ -1419,13 +1411,19 @@ font-weight: 600;
   gap: 5px;
 }
 
+.blog-container-item-discription h4{
+  font-size: 18px;
+  color:#005292;
+  font-weight: 600;
+  }
 .blog-container-item-discription a{
-  display: inline-block;
+  display: flex;
   position: relative;
   color: #052d41;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .blog-container-item-discription a::after{
