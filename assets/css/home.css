@@ -1363,6 +1363,7 @@ color: #787878;
   height: 90%;
   background-color: #fcfcfc;
   border: 1px solid #E4E4E4;
+  cursor:grabbing;
   border-radius: 3%;
   width: 99%;
   display: flex;

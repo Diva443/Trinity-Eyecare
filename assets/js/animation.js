@@ -37,23 +37,11 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  $(".blog-container").owlCarousel({
-    loop: true,
-    items: 3, // Corrected property name (it's "items", not "item")
-    autoplay: true,
-    dots: true,
-    autoplayTimeout: 3000, // 3000ms = 3s
-    autoplayHoverPause: true,
-  });
-});
-
-$(document).ready(function () {
   $(".blog-container1").owlCarousel({
     items: 3,
     margin: 2,
     autoPlay: true,
     loop: true,
-    nav: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
   });
