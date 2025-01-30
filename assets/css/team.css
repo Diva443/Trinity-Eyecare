@@ -12,9 +12,10 @@
     align-items: start;
     width: 100%;
     height: auto;
+    margin-bottom: 50px;
 }
 .doctor-profile-img{
-    background-image: url('/assets/image/doctorprofile1.svg');
+    background-image: url('/assets/images/profile-images/team-doctor1.svg');
     width: 30%;
     height: 100%;
     background-position: center;
@@ -97,7 +98,7 @@
 }
 
 .admin-profile{
-    height: auto;
+    height: 750px;
 }
 .admin-profile-content{
     display: flex;

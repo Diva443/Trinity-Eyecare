@@ -49,16 +49,16 @@ body{
     border-radius: 30px;
 }
 .specialized-button-img1{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/pediatric-assessment.svg');
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/pediatric-assessment.svg');
 }
 .specialized-button-img2{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/binocular-vision.svg');
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/binocular-vision.svg');
 }.specialized-button-img3{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/scientific-dispensing.svg');
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/scientific-dispensing.svg');
 }.specialized-button-img4{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/contact-lenspractice.svg');
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/contact-lenspractice.svg');
 }.specialized-button-img5{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/image/glaucoma-retina.svg');
+    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/glaucoma-retina.svg');
 }
 .specialized-overlay{
     position: absolute;
@@ -70,7 +70,7 @@ body{
 .specialized-section-content{
     width: 100%;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 400px;
 }
 
 .specialized-content-1{
@@ -123,7 +123,7 @@ align-items: center;
     height: 300px;
     margin-top: 50px;
     border-radius: 50px;
-    background-image:url('/assets/image/pediatric-image.svg');
+    background-image:url('/assets/images/pediatric-image.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@ align-items: center;
 }
 
 .p-img1{
-    background-image:url('/assets/image/pediatric-img1.svg');
+    background-image:url('/assets/images/pediatric-img1.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ align-items: center;
     opacity: 72%;
 }
 .p-img2{
-    background-image:url('/assets/image/pediatric-img2.svg');
+    background-image:url('/assets/images/pediatric-img2.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -302,7 +302,7 @@ align-items: flex-start;
 .scientific-dispensing-assessment-1-right{
     width: 30%;
     height: 500px;
-    background-image: url('/assets/image/scientific-dispensing-1.svg');
+    background-image: url('/assets/images/scientific-dispensing-1.svg');
     background-size: cover;
     background-position:center ;
     border-radius:50px ;
@@ -339,7 +339,7 @@ align-items: flex-start;
 .scientific-dispensing-assessment-2-left{
     width: 34%;
     height: 500px;
-    background-image: url('/assets/image/scientific-dispensing-1.svg');
+    background-image: url('/assets/images/scientific-dispensing-1.svg');
     background-size: cover;
     background-position:center ;
     border-radius:50px ;

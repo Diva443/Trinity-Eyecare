@@ -5,8 +5,7 @@ $(document).ready(function () {
     items: 3, // Corrected property name (it's "items", not "item")
     autoplay: true,
     dots: true,
-    nav: true,
-    autoplayTimeout: 9000, // 3000ms = 3s
+    autoplayTimeout: 2000, // 3000ms = 3s
     autoplayHoverPause: true,
   });
 });
@@ -48,6 +47,30 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $(".blog-container1").owlCarousel({
+    items: 3,
+    margin: 2,
+    autoPlay: true,
+    loop: true,
+    nav: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+  });
+});
+
+$(document).ready(function () {
+  $(".testimonial-carousel").owlCarousel({
+    loop: true,
+    items: 2, // Corrected property name (it's "items", not "item")
+    autoplay: true,
+    dots: true,
+    margin: 5,
+    autoplayTimeout: 9000, // 3000ms = 3s
+    autoplayHoverPause: true,
+  });
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const animatedElements = document.querySelectorAll(".animate-on-scroll");
 
@@ -74,4 +97,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Run on page load to handle already visible elements
   handleScroll();
+});
+
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".topnav");
+  if (window.scrollY > 0) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
 });

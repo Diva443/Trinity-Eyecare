@@ -1,0 +1,196 @@
+.aboutus-part1{
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.aboutus-part1-content{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    gap: 60px;
+}
+.aboutus-part1-content h1{
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    color: #274760;
+    width: 50%;
+}
+.aboutus-part1-content h2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #F88E95;
+    width: 40%; 
+}
+
+.aboutus-part1-content h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #274760;
+}
+.aboutus-part1-badge{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    height: auto;
+}
+
+.badge{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+}
+.badgeimg{
+    background-image: url('/assets/icons/aboutus-badge.svg');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.aboutus-part1-info{display: flex;
+flex-direction: column;
+gap: 30px;}
+
+.whychoose{
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.whychoose-content{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.whychoose-img{
+    background-image: url('/assets/images/whychoose.svg');
+    height: 400px;
+    width: 40%;
+    background-position: center;
+    border-radius: 20px;
+    background-size: cover;
+}
+.whychoose-info{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap: 10px;
+    width: 55%;
+    height: 400px;
+}
+.whychoose-card{
+    width: 48%;
+    height: 50%;
+    display: flex;
+    flex-direction:row;
+    gap: 6%;
+    padding: 3%;
+    color: #000000;
+}
+.whychoose-card img{
+    width: 55px;
+    height: 55px;
+}
+
+.whychoose-card h1{
+ font-size: 20px;
+ font-weight: 700;   
+}
+.whychoose-cardp{
+    font-size: 15px;
+    font-weight: 300;
+}
+.whychoose-card-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.award-gallery{
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 400px;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+.line-dot{
+    height: 1px;
+    background-color: #0060AA;
+    width: 59%;
+}
+.line-dot:after{
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #0060AA;
+    margin-top: -4px;
+    float: left;
+}
+
+.award-gallery-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.award-section{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    width:100%;
+    text-align: center;
+    color: #274760;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+.card h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card1{
+    margin: 1%;
+    width: auto;
+    height: 250px;    
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+.card2{
+    margin: 1%;
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}

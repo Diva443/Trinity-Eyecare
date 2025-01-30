@@ -1,14 +1,4 @@
-.blog-breadcrumb{
-    background-image: url('/assets/image/bread-crumb-banner.svg');
-    height: 500px;
-    width: 100%;
-    background-position:center 30%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display:flex ;
-    flex-direction: column;
-    justify-content: center;
-    }
+
     
     .blog-banner-content{
         display: flex;
@@ -49,7 +39,7 @@
         font-style: italic;
     }
     .blog-appoinment-1 img{
-        background-image: url('/assets/image/teamimg1.png');
+        background-image: url('/assets/images/profile-images/teamimg1.png');
         width: 80px;
         height: 80px;
         border-radius: 50%;
@@ -127,7 +117,7 @@
         width: 90%;
         height: 340px;
         border-radius: 20px;
-        background-image: url('/assets/image/pediatric-image.svg');
+        background-image: url('/assets/images/pediatric-image.svg');
         background-position: 10% center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -285,16 +275,16 @@
         border-radius: 30px;
     }
     .blog-button-img1{
-        background-image: url('/assets/image/blogimg1.svg');
+        background-image: url('/assets/images/blogimg1.svg');
     }
     .blog-button-img2{
-        background-image: url('/assets/image/blogimg2.svg');
+        background-image: url('/assets/images/blogimg2.svg');
     }
     .blog-button-img3{
-        background-image: url('/assets/image/blogimg3.svg');
+        background-image: url('/assets/images/blogimg3.svg');
     }
     .blog-button-img4{
-        background-image: url('/assets/image/blogimg4.svg');
+        background-image: url('/assets/images/blogimg4.svg');
     }
     
     .blog-footer-container{

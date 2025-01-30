@@ -76,10 +76,7 @@
             <h1>Meet Our Experts</h1>
             <h2>
               Our team of highly skilled optometrists brings a wealth of
-              experience and knowledge, having graduated from prestigious
-              institutions including CMCH Vellore, Sankara Nethralaya, Sri
-              Ramachandra University, Manipal University, the University of New
-              South Wales (Australia), and other renowned universities.
+              experience and knowledge.
             </h2>
           </div>
           <div class="specialized-content2"></div>
@@ -344,5 +341,14 @@
         </div>
       </div>
     </section>
+    <div id="footer"></div>
+    <script>
+      fetch("../components/footer.html") // Absolute path from the root
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/assets/js/animation.js"></script>
   </body>
 </html>
