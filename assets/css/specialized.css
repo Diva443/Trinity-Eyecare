@@ -47,18 +47,32 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.specialized-button-img span{
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #ffffffce;
+}
+.specialized-button-img i{
+font-size: 50px;
+color: #ffffffce;
 }
 .specialized-button-img1{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/pediatric-assessment.svg');
+    background-image:linear-gradient( rgba(0, 0, 0, 0.181),rgba(39, 71, 96, 1)),url('/assets/icons/pediatric-assessment.svg');
 }
 .specialized-button-img2{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/binocular-vision.svg');
+    background-image:linear-gradient(  rgba(0, 0, 0, 0.181),rgba(39, 71, 96, 1)),url('/assets/icons/binocular-vision.svg');
 }.specialized-button-img3{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/scientific-dispensing.svg');
+    background-image:linear-gradient(  rgba(0, 0, 0, 0.181),rgba(39, 71, 96, 1)),url('/assets/icons/scientific-dispensing.svg');
 }.specialized-button-img4{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/contact-lenspractice.svg');
+    background-image:linear-gradient(  rgba(0, 0, 0, 0.181),rgba(39, 71, 96, 1)),url('/assets/icons/contact-lenspractice.svg');
 }.specialized-button-img5{
-    background-image:linear-gradient( rgba(150, 149, 149, 0.44),rgba(0, 14, 217, 0.44)),url('/assets/icons/glaucoma-retina.svg');
+    background-image:linear-gradient(  rgba(0, 0, 0, 0.181),rgba(39, 71, 96, 1)),url('/assets/icons/glaucoma-retina.svg');
 }
 .specialized-overlay{
     position: absolute;
@@ -86,7 +100,7 @@ height: auto;
 width: 100%;
 background-color: #fff;
 justify-content: space-around;
-align-items: center;
+align-items: start;
 }
 .pediatric-assessment p{
     width: 95%;
@@ -163,7 +177,6 @@ align-items: center;
     width: 90%;
     height: 200px;
     border-radius: 20px;
-    opacity: 72%;
 }
 .p-img2{
     background-image:url('/assets/images/pediatric-img2.svg');
@@ -215,7 +228,7 @@ height: auto;
 width: 100%;
 background-color: #fff;
 justify-content: space-around;
-align-items: center;
+align-items: start;
 }
 .binocular-vision-assessment p{
     width: 95%;
@@ -394,4 +407,423 @@ align-items: flex-start;
     content: "•";
 }
 
+
+
+.Contact-lenspractice-assessment{
+    display: flex;
+flex-direction: column;
+height: auto;
+width: 100%;
+background-color: #fff;
+justify-content: space-around;
+align-items: flex-start;
+}
+.Contact-lenspractice-assessment h2{
+    font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #274760;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.Contact-lenspractice-assessment h3{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    color: #000;
+}
+
+.Contact-lenspractice-assessment-1{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.Contact-lenspractice-assessment-1-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    gap: 40px;
+}
+.Contact-lenspractice-assessment-1-right{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Contact-img2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+.contact-img1{
+    background-image: url('/assets/images/pediatric-img1.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+.img-op{
+    position: absolute;
+    background-color: #081E41;
+    width: 345.6px;
+    height: 200px;
+    border-radius: 20px;
+    opacity: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Contact-lenspractice-assessment-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.Contact-lenspractice-assessment-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.Contact-lenspractice-assessment-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+.Contact-lenspractice-assessment-2-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+    width: 100%;
+}
+.Contact-lenspractice-assessment-card1{
+    width: 45%;
+    height: 400px;
+    border: 1px solid #E1F1FF;
+    filter: drop-shadow(0px 4px 2px #E0F1FF);
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    color: #000;
+    gap: 15px;
+}
+
+.Contact-lenspractice-assessment-card1 img{
+    width: 55px;
+    height: 55px;
+    top: -4%;
+    left: -4%;
+    position: absolute;
+}
+
+.Contact-lenspractice-assessment-card1 span{
+    font-size: 14px;
+    font-weight: 300;
+}
+.Contact-lenspractice-assessment-card1 h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.Contact-lenspractice-assessment-card{
+    width: 30%;
+    height: 330px;
+    border: 1px solid #E1F1FF;
+    filter: drop-shadow(0px 4px 2px #E0F1FF);
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    color: #000;
+    gap: 15px;
+}
+.Contact-lenspractice-assessment-card img{
+    width: 55px;
+    height: 55px;
+    top: -4%;
+    left: -4%;
+    position: absolute;
+}
+
+.Contact-lenspractice-assessment-card span{
+    font-size: 14px;
+    font-weight: 300;
+}
+.Contact-lenspractice-assessment-card h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.points-card {
+    color: #000;
+}
+
+.points-card span::before{
+    content: "•";
+}
+
+
+.points {
+    color: #000;
+}
+
+.points span::before{
+    content: "•";
+}
+
+
+
+.glaucoma-retina-assessment{
+    display: flex;
+flex-direction: column;
+height: auto;
+width: 100%;
+background-color: #fff;
+justify-content: space-around;
+align-items: flex-start;
+}
+.glaucoma-retina-assessment h2{
+    font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #274760;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.glaucoma-retina-assessment h3{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 40px;
+    color: #000;
+}
+
+.glaucoma-retina-assessment-1{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.glaucoma-retina-assessment-1-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    gap: 40px;
+}
+
+.glaucoma-retina-assessment-1-right{
+    width: 30%;
+    height: 500px;
+    background-image: url('/assets/images/scientific-dispensing-1.svg');
+    background-size: cover;
+    background-position:center ;
+    border-radius:50px ;
+}
+.glaucoma-retina-assessment-1-right img{
+    height: 350px;
+    width: 70%;
+    margin-left: -50%;
+    margin-top: 50%;
+}
+.Contact-img2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+.contact-img1{
+    background-image: url('/assets/images/pediatric-img1.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+    border-radius: 20px;
+}
+.img-op{
+    position: absolute;
+    background-color: #081E41;
+    width: 345.6px;
+    height: 200px;
+    border-radius: 20px;
+    opacity: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.glaucoma-retina-assessment-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.glaucoma-retina-assessment-heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.glaucoma-retina-assessment-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+
+.glaucoma-retina-assessment-2-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:30px;
+    width: 100%;
+}
+.glaucoma-retina-assessment-card1{
+    width: 90%;
+    height: 540px;
+    border: 1px solid #E1F1FF;
+    filter: drop-shadow(0px 4px 2px #E0F1FF);
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    color: #000;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.glaucoma-retina-assessment-card1 img{
+    width: 55px;
+    height: 55px;
+    top: -4%;
+    left: -4%;
+    position: absolute;
+}
+
+.ava-vision-analyzer-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ava-vision-analyzer-section1{
+    width: 45%;
+    height: auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: space-between;
+}
+.ava-vision-analyzer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.glaucoma-retina-assessment-card1 span{
+    font-size: 14px;
+    font-weight: 300;
+}
+.glaucoma-retina-assessment-card1 h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+.glaucoma-retina-assessment-card1 h4{
+font-weight: 700;
+font-size: 20px;
+}
+.glaucoma-retina-assessment-card1 i{
+    font-size: 25px;
+}
+.glaucoma-retina-assessment-card{
+    width: 30%;
+    height: 400px;
+    border: 1px solid #E1F1FF;
+    filter: drop-shadow(0px 4px 2px #E0F1FF);
+    border-radius: 20px;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    color: #000;
+    gap: 15px;
+}
+.glaucoma-retina-assessment-card img{
+    width: 55px;
+    height: 55px;
+    top: -4%;
+    left: -4%;
+    position: absolute;
+}
+
+.glaucoma-retina-assessment-card span{
+    font-size: 14px;
+    font-weight: 300;
+}
+.glaucoma-retina-assessment-card h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.points-card {
+    color: #000;
+}
+
+.points-card span::before{
+    content: "•";
+}
+
+
+.points {
+    color: #000;
+}
+
+.points span::before{
+    content: "•";
+}
 

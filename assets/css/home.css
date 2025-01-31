@@ -486,12 +486,12 @@ display: none;
   }
   
   .About-us-content-1 p{
-  font-size: 14px;
+  font-size: 18px;
   line-height: 23.7px;
   font-weight: 300;
   color: #888888;
   display: flex;
-  text-align: left;
+  text-align: justify;
   }
   .About-us-content-heading{
     display: flex;
@@ -500,8 +500,8 @@ display: none;
   }
   .About-us-content-heading h2{
     color:#F88E95 ;
-    font-size: 24px;
-    font-weight: 800;
+    font-size: 40px;
+    font-weight: 600;
   text-align: left;
   }
   .About-us-content-heading h1{
@@ -694,7 +694,7 @@ color: #274760;
 .doc-team{
   position: relative;
   margin-top: 100px;
-  height: 700px; /* Fix the height of the section */
+  height: 600px; /* Fix the height of the section */
 
 }
 .doc-team-content{
@@ -708,20 +708,21 @@ color: #274760;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
 }
 
 .doc-team-items h1{
 font-style: normal;
 font-weight: 600;
-font-size:50px;
+font-size:40px;
 color: #0F4699 ;
 }
 .doc-team-items p{
 font-style: normal;
 font-weight: 400;
-font-size:var(--heading2);
+font-size:20px;
 color: #666666;
+text-align: justify;
 }
 .doc-team-slider-content{
   display: flex;
@@ -887,11 +888,12 @@ color: #F88E95;
   border-radius: 30px; 
   box-sizing: border-box;
   background-color: #fff;
-  /* background: linear-gradient(179.15deg, #E9F2FF 0.73%, #FFFFFF 8.48%); */
+  background: linear-gradient(179.15deg, #E9F2FF 0.73%, #FFFFFF 8.48%);
   border: 1px solid #E4E4E4;
-  box-shadow: 0px 4px 4px #DFDFDF;
+  box-shadow: 0px 1px 1px #DFDFDF;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 30px;
 }
 
@@ -899,16 +901,15 @@ color: #F88E95;
   margin: 20px;
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 40px;
   display: flex;
   align-items: center;
-  text-align: center;
   color: #2670B4;
 }
 .specialized-container p{
   margin-left: 20px;
 font-style: normal;
-font-weight: 200;
+font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 display: flex;
@@ -958,7 +959,6 @@ color: #787878;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  /* or 120% */
   letter-spacing: 0.69px;
   text-transform: capitalize;
   display: flex;
@@ -973,7 +973,7 @@ background-color: #0F4699;
 
 .specialized-carousal-item:hover h2, 
 .specialized-carousal-item:hover span {
-  color: #ffffff; /* Change text color to white */
+  color: #ffffff; 
 }
 
 .specialized-carousal-item:hover .specialized-icon{
@@ -1013,6 +1013,7 @@ line-height: 28px;
 /* or 190% */
 display: flex;
 align-items: center;
+text-align: justify;
 letter-spacing: 0.45px;
 
 color: #666666;
@@ -1090,7 +1091,7 @@ color: #666666;
   margin: 15px;
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 40px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1099,7 +1100,7 @@ color: #666666;
 .expertise-content-heading p{
   margin: 10px;
 font-style: normal;
-font-weight: 200;
+font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 display: flex;
@@ -1216,14 +1217,14 @@ align-items: center;
   margin: 20px;
   font-style: normal;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 40px;
   color: #2670B4;
 }
 
 .Lab-Lense-heading p{
   margin: 20px;
 font-style: normal;
-font-weight: 200;
+font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 color: #787878;
@@ -1348,7 +1349,7 @@ color: #787878;
 .blog-content h1{
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 40px;
   color: #2670B4;
 }
 .blog-container1{
@@ -1487,6 +1488,7 @@ margin-top: 20px;
   display: flex;
   text-align: center;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .youtube-footer{
