@@ -105,9 +105,11 @@ align-items: start;
 .pediatric-assessment p{
     width: 95%;
     margin-top: 50px;
-    color: #000;
-    font-size: 18px;
-    font-weight: 300;
+    color: var(--color-3);
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-2);
+    text-align: justify;
+    width: 100%;
 }
 
 .pediatric-assessment-heading{
@@ -119,9 +121,9 @@ align-items: start;
     margin-top: 40px;
 }
 .pediatric-assessment-heading h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: #000;
+    font-size: var(--topic-heading);
+    font-weight: var(--topic-heading-weight);
+    color: var(--color-1);
 }
 .pediatric-assessment-heading img{
     height: 100px;
@@ -201,13 +203,15 @@ align-items: start;
 .pediatric-age-content h2{
     margin-left: 90px;
     width: 80%;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: var(--content1);
+    color: var(--color-3);
+    font-weight: var(--sub-heading-weight-2);
 }
 
 .pediatric-age-content1 h1{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: var(--sub-heading-2);
+    font-weight: var(--sub-heading-weight-2);
+    color: var(--color-2);
 }
 .pediatric-age-content1{
     display: flex;
@@ -233,9 +237,11 @@ align-items: start;
 .binocular-vision-assessment p{
     width: 95%;
     margin-top: 50px;
-    color: #000;
-    font-size: 18px;
-    font-weight: 300;  
+    color: var(--color-3);
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-2);
+    width: 100%;
+    text-align: justify;  
 }
 .binocular-vision-assessment-heading{
     display: flex;
@@ -247,9 +253,9 @@ align-items: start;
 }
 
 .binocular-vision-assessment-heading h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: #000;
+    font-size: var(--topic-heading);
+    font-weight: var(--topic-heading-weight);
+    color: var(--color-1);
 }
 
 
@@ -290,11 +296,12 @@ align-items: flex-start;
 }
 
 .scientific-dispensing-assessment h3{
-    width: 80%;
-    font-size: 20px;
-    font-weight: 300;
+    width: 100%;
+    text-align: justify;
+    font-size: var(--content1);
+    font-weight:var(--sub-heading-weight-2);
     margin-top: 40px;
-    color: #000;
+    color:var(--color-3);
 }
 
 .scientific-dispensing-assessment-1{
@@ -336,10 +343,12 @@ align-items: flex-start;
 }
 
 .scientific-dispensing-assessment-heading h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: #000;
+    font-size: var(--topic-heading);
+    font-weight: var(--topic-heading-weight);
+    color: var(--color-1);
 }
+
+
 
 .scientific-dispensing-assessment-2{
     display: flex;
@@ -363,11 +372,11 @@ align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     gap:30px;
-    width: 60%;
+    width: 65%;
 }
 .scientific-dispensing-assessment-card{
-    width: 350px;
-    height: 400px;
+    width: 400px;
+    height: 475px;
     border: 1px solid #E1F1FF;
     filter: drop-shadow(0px 4px 2px #E0F1FF);
     border-radius: 20px;
@@ -386,21 +395,26 @@ align-items: flex-start;
 }
 
 .scientific-dispensing-assessment-card span{
-    font-size: 14px;
-    font-weight: 300;
+    font-size: var(--content2);
+    font-weight: var(--sub-heading-weight-2);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: justify;
 }
 .scientific-dispensing-assessment-card h1{
-    font-size: 14px;
-    font-weight: 700;
+    font-size: var(--content1);
+    color: var(--color-1);
+    font-weight: var(--sub-heading-weight-1);
 }
 
 
 .scientific-dispensing-assessment .points {
     margin-top: 40px;
-    font-size:20px;
-    font-weight: 300;
+    font-size:var(--content1);
+    font-weight: var(--sub-heading-weight-2);
     line-height: 24px;
-    color: #000;
+    color:var(--color-3);
 }
 
 .scientific-dispensing-assessment .points span::before{
@@ -429,10 +443,10 @@ margin-bottom: 50px;
 
 .Contact-lenspractice-assessment h3{
     width: 80%;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-2);
     margin-top: 40px;
-    color: #000;
+    color: var(--color-3);
 }
 
 .Contact-lenspractice-assessment-1{
@@ -498,11 +512,16 @@ margin-bottom: 50px;
 }
 
 .Contact-lenspractice-assessment-heading h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: #000;
+    font-size: var(--topic-heading);
+    font-weight: var(--topic-heading-weight);
+    color: var(--color-1);
 }
-
+.Contact-lenspractice-assessment p{
+    font-size: var(--color-1);
+    font-weight: var(--sub-heading-weight-2);
+    color:var(--color-3);
+    text-align: justify;
+}   
 .Contact-lenspractice-assessment-2{
     display: flex;
     flex-direction: row;
@@ -522,18 +541,18 @@ margin-bottom: 50px;
 }
 .Contact-lenspractice-assessment-card1{
     width: 45%;
-    height: 400px;
+    height: 460px;
     border: 1px solid #E1F1FF;
     filter: drop-shadow(0px 4px 2px #E0F1FF);
     border-radius: 20px;
     display: flex;
-    padding: 5%;
+    padding: 3%;
     flex-direction: column;
     color: #000;
     gap: 15px;
 }
 
-.Contact-lenspractice-assessment-card1 img{
+.Contact-lenspractice-assessment-card1 img,.Contact-lenspractice-assessment-card img{
     width: 55px;
     height: 55px;
     top: -4%;
@@ -541,13 +560,15 @@ margin-bottom: 50px;
     position: absolute;
 }
 
-.Contact-lenspractice-assessment-card1 span{
-    font-size: 14px;
-    font-weight: 300;
+.Contact-lenspractice-assessment-card1 span,.Contact-lenspractice-assessment-card span{
+    font-size: var(--content2);
+    font-weight: var(--sub-heading-weight-2);
+    color: var(--color-3);
 }
-.Contact-lenspractice-assessment-card1 h1{
-    font-size: 14px;
-    font-weight: 700;
+.Contact-lenspractice-assessment-card1 h1,.Contact-lenspractice-assessment-card h1{
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-1);
+    color: var(--color-1);
 }
 
 .Contact-lenspractice-assessment-card{
@@ -557,30 +578,18 @@ margin-bottom: 50px;
     filter: drop-shadow(0px 4px 2px #E0F1FF);
     border-radius: 20px;
     display: flex;
-    padding: 5%;
+    padding: 3%;
     flex-direction: column;
     color: #000;
     gap: 15px;
 }
-.Contact-lenspractice-assessment-card img{
-    width: 55px;
-    height: 55px;
-    top: -4%;
-    left: -4%;
-    position: absolute;
-}
 
-.Contact-lenspractice-assessment-card span{
-    font-size: 14px;
-    font-weight: 300;
-}
-.Contact-lenspractice-assessment-card h1{
-    font-size: 14px;
-    font-weight: 700;
-}
+
 
 .points-card {
-    color: #000;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .points-card span::before{
@@ -589,7 +598,12 @@ margin-bottom: 50px;
 
 
 .points {
-    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-2);
+    color: var(--color-3);
 }
 
 .points span::before{
@@ -608,20 +622,19 @@ justify-content: space-around;
 align-items: flex-start;
 }
 .glaucoma-retina-assessment h2{
-    font-weight: 700;
-font-size: 40px;
+    font-weight: var(--topic-heading-weight);
+font-size: var(--topic-heading);
 line-height: 48px;
-color: #274760;
-margin-top: 50px;
-margin-bottom: 50px;
+color: var(--color-1);
+margin-bottom: 30px;
 }
 
 .glaucoma-retina-assessment h3{
     width: 80%;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-2);
     margin-top: 40px;
-    color: #000;
+    color: var(--color-3);
 }
 
 .glaucoma-retina-assessment-1{
@@ -695,9 +708,15 @@ margin-bottom: 50px;
 }
 
 .glaucoma-retina-assessment-heading h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: #000;
+    font-size: var(--topic-heading);
+    font-weight: var(--topic-heading-weight);
+    color: var(--color-1);
+}
+.glaucoma-retina-assessment p{
+    font-size: var(--color-1);
+    font-weight: var(--sub-heading-weight-2);
+    color:var(--color-3);
+    text-align: justify;
 }
 
 .glaucoma-retina-assessment-2{
@@ -719,19 +738,20 @@ margin-bottom: 50px;
 }
 .glaucoma-retina-assessment-card1{
     width: 90%;
-    height: 540px;
+    height: 570px;
     border: 1px solid #E1F1FF;
     filter: drop-shadow(0px 4px 2px #E0F1FF);
     border-radius: 20px;
     display: flex;
-    padding: 5%;
+    padding: 3%;
     flex-direction: column;
     color: #000;
     gap: 15px;
     margin-bottom: 50px;
 }
 
-.glaucoma-retina-assessment-card1 img{
+.glaucoma-retina-assessment-card1 img,
+.glaucoma-retina-assessment-card img{
     width: 55px;
     height: 55px;
     top: -4%;
@@ -766,64 +786,34 @@ margin-bottom: 50px;
     gap: 20px;
 }
 
-.glaucoma-retina-assessment-card1 span{
-    font-size: 14px;
-    font-weight: 300;
+.glaucoma-retina-assessment-card1 span,.glaucoma-retina-assessment-card span{
+    font-size: var(--content2);
+    font-weight: var(--sub-heading-weight-2);
+    color: var(--color-3);
 }
-.glaucoma-retina-assessment-card1 h1{
-    font-size: 14px;
-    font-weight: 700;
+.glaucoma-retina-assessment-card1 h1,.glaucoma-retina-assessment-card h1{
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-1);
+    color: var(--color-1);
 }
 .glaucoma-retina-assessment-card1 h4{
-font-weight: 700;
-font-size: 20px;
+    font-size: var(--content1);
+    font-weight: var(--sub-heading-weight-1);
+    color: var(--color-1);
 }
 .glaucoma-retina-assessment-card1 i{
-    font-size: 25px;
+    font-size: var(--sub-heading-2);
+    color: var(--color-2);
 }
 .glaucoma-retina-assessment-card{
     width: 30%;
-    height: 400px;
+    height: 500px;
     border: 1px solid #E1F1FF;
     filter: drop-shadow(0px 4px 2px #E0F1FF);
     border-radius: 20px;
     display: flex;
-    padding: 5%;
+    padding: 3%;
     flex-direction: column;
     color: #000;
     gap: 15px;
 }
-.glaucoma-retina-assessment-card img{
-    width: 55px;
-    height: 55px;
-    top: -4%;
-    left: -4%;
-    position: absolute;
-}
-
-.glaucoma-retina-assessment-card span{
-    font-size: 14px;
-    font-weight: 300;
-}
-.glaucoma-retina-assessment-card h1{
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.points-card {
-    color: #000;
-}
-
-.points-card span::before{
-    content: "•";
-}
-
-
-.points {
-    color: #000;
-}
-
-.points span::before{
-    content: "•";
-}
-

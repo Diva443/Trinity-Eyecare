@@ -31,6 +31,27 @@
     margin-right: auto;
   }
 
+:root{
+  
+    /*========== Font Size ==========*/
+    --topic-heading:40px;
+    --sub-heading-1:34px;
+    --sub-heading-2:24px;
+    --content1:18px;
+    --content2:16px;
+
+    /*========== Font Weight ==========*/
+    --topic-heading-weight:700;
+    --sub-heading-weight-1:600;
+    --sub-heading-weight-2:400;
+    
+    /*========== Font Color ==========*/
+    --color-1: #274760;
+    --color-2:#F88E95;
+    --color-3:#666666;
+    --color-4:#2670B4;
+    --color-5:#ffffff;
+  }
 
 
 

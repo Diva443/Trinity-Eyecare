@@ -125,20 +125,34 @@
         margin-bottom: 50px;
     }
     .blog-section-main-content h1{
-        font-size: 40px;
-        font-weight: 700;
+        font-size: var(--topic-heading);
+        font-weight: var(--topic-heading-weight);
         margin-bottom: 50px;
+    }
+    .blog-section-main-content p{
+        font-size: var(--content2);
+        font-weight: var(--sub-heading-weight-2);
+        color: var(--color-3);
+        text-align: justify;
+        margin-bottom: 10px;
     }
     
     .blog-section-main-content h5{
-        font-size: 18px;
-        font-weight: 300;
-        margin-bottom: 50px;
+        font-size: var(--content1);
+        font-weight: var(--sub-heading-weight-2);
+        margin-bottom: 30px;
+        color: var(--color-3);
+        text-align: justify;
+        width: 98%;
     }
     .blog-section-main-content h3{
-        font-size: 24px;
-        font-weight: 400;
-        color: #F88E95;
+        font-size: var(--sub-heading-2);
+        font-weight: var(--sub-heading-weight-2);
+        color: var(--color-2);
+        margin-bottom: 20px;
+    }
+    .blog-section-main-content h2{
+        margin-bottom: 15px;
     }
     
     
@@ -146,25 +160,33 @@
         margin-bottom: 50px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 15px;
     }
     .types-refractive-error h1{
-        color: #F88E95;
+        color: var(--color-2);
     }
     .types-refractive-error h3{
-        font-size: 18px;
+        font-size: var(--content1);
+        margin-bottom: 15px;
     }
     .types-refractive-error h2{
-        font-size: 30px;
-        font-weight: 700;
+        font-size: var(--sub-heading-2);
+        font-weight: var(--topic-heading-weight);
         color: #274760;
     }
     .types-refractive-error span{
-        font-size: 18px;
-        font-weight: 300;
+        font-size: var(--content2);
+        font-weight: var(--sub-heading-weight-2);
+        color: var(--color-3);
+        width: 98%;
+        text-align: justify;
     }
     .types-refractive-error h4{
         color: #000;
+    }
+    .symptoms{
+        display: flex;
+        flex-direction: column;
     }
     
     .myopia-content-footer{
@@ -199,6 +221,9 @@
     font-size: 24px;
     font-weight: 400;
     color: #274760;
+    }
+    .m-footer-content span{
+        color: var(--color-3);
     }
     
     

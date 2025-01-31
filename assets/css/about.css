@@ -12,23 +12,24 @@
     gap: 60px;
 }
 .aboutus-part1-content h1{
-    font-size: 32px;
-    font-weight: 500;
+    font-size: var(--sub-heading-1);
+    font-weight: var(--sub-heading-weight-1);
     text-align: center;
-    color: #274760;
-    width: 50%;
+    color: var(--color-1);
+    width: 60%;
 }
 .aboutus-part1-content h2{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: var(--content-2);
+    font-weight: var(--sub-heading-weight-1);
     color: #F88E95;
     width: 40%; 
 }
 
 .aboutus-part1-content h3{
-    font-size: 18px;
-    font-weight: 400;
-    color: #274760;
+    font-size: var(--content-1);
+    font-weight: var(--sub-heading-weight-2);
+    color: var(--color-3);
+    text-align: justify;
 }
 .aboutus-part1-badge{
     display: flex;
@@ -104,12 +105,14 @@ gap: 30px;}
 }
 
 .whychoose-card h1{
- font-size: 20px;
- font-weight: 700;   
+ font-size: var(--content-1);
+ font-weight: var(--sub-heading-weight-1);  
+ color: var(--color-2); 
 }
-.whychoose-cardp{
-    font-size: 15px;
-    font-weight: 300;
+.whychoose-card p{
+    font-size: var(--content-2);
+    font-weight: var(--sub-heading-weight-2);
+    color: var(--color-3);
 }
 .whychoose-card-content{
     height: 100%;
@@ -163,19 +166,19 @@ gap: 30px;}
 .card{
     width:100%;
     text-align: center;
-    color: #274760;
+    color: var(--color-1);
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .card h2{
-    font-size: 24px;
-    font-weight: 500;
+    font-size: var(--sub-heading-2);
+    font-weight: var(--sub-heading-weight-1);
 }
 .card h1{
-    font-size: 40px;
-    font-weight: 700;
+    font-size: var(--topic-heading);
+    font-weight: var(--topic-heading-weight);
 }
 .card1{
     margin: 1%;
