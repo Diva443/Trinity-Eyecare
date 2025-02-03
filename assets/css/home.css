@@ -81,7 +81,7 @@
   background-position: 50%;
   z-index: 1;
 }
-.banner-image{
+/* .banner-image{
   position: relative;
   animation: slideUp 2s;
   animation-timing-function: ease;
@@ -95,7 +95,7 @@
   100% {
     transform: translateY(0%);
   }
-}
+} */
 .banner-image img{
   height: 500px;
 }
