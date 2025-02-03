@@ -46,11 +46,13 @@
     --sub-heading-weight-2:400;
     
     /*========== Font Color ==========*/
-    --color-1: #274760;
+    --color-1:#274760;
     --color-2:#F88E95;
-    --color-3:#666666;
+    --color-3:#888888;
     --color-4:#2670B4;
     --color-5:#ffffff;
+    --color-6:#E4EFFF;
+    --color-7:#F9FAFD;
   }
 
 

@@ -146,11 +146,11 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
-    color: #000;
 }
 .young-brain-poster-info h1{
     font-size: 40px;
     font-weight: 700;
+    color: var(--color-1);
 }
 .young-brain-poster-content{
     height: 70%;
@@ -162,11 +162,14 @@
 }
 .young-brain-poster-content h1{
     font-size: 34px;
-    font-weight: 700;
+    font-weight: 500;
+    color: var(--color-2);
 }
 .young-brain-poster-content p{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
+    color: var(--color-3);
+    text-align: left;
 }
 .young-brain-btn{
     background-color: #63AB45;
@@ -237,7 +240,7 @@
 
 .testimonial{
     position: relative;
-    height: 1150px;
+    height: 650px;
     background-color: #E4EFFF;
     display: flex;
     align-items: center;
@@ -252,8 +255,8 @@
     gap: 30px;
 }
 .testimonial-content h1{
-    color: #000;
-    font-size: 44px;
+    color:var(--color-1);
+    font-size: var(--topic-heading);
     font-weight: 600;
 }
 .testimonial-carousel{
@@ -336,6 +339,78 @@ margin-top: 10px;
     margin-bottom: -50px;
     z-index: 99;
 }
+
+
+
+/*=============== client-banner ===============*/
+
+.client-banner {
+    position: relative;
+    margin-top: 100px;
+    height: 800px; /* Fix the height of the section */
+    /* background-image: linear-gradient(to right,  #ffffff,#DEF7FF); */
+  }
+  .client-banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  }
+  .brand_name{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--topic-heading);
+    font-weight: 500;
+    line-height: 76px;  
+    color: var(--color-1);
+    margin-top: 20px;
+  }
+  
+  .slider {
+    margin-top: 70px;
+    background-color: transparent;
+    overflow: hidden; /* Hide overflowing content */
+    width: 100%; /* Set width to container */
+  }
+  
+  .slide-track {
+    display: flex;
+    gap: 10rem; /* Space between images */
+    animation: scroll 20s linear infinite; /* Continuous animation */
+  }
+  
+  .slide {
+    flex: 0 0 auto; /* Prevent images from shrinking */
+  }
+  
+  .slide img {
+    width: 150px;
+    height: 100px;
+  }
+  
+  /* Keyframe animation for smooth scroll */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%); /* Move by half the content width */
+    }
+  }
+  
+  .client-banner-footimg{
+    background-image: url('/assets/image/clientbanner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 700px;
+    z-index: 1;
+  }
+
+
 
 .enquiry-footer{
     position: relative;

@@ -32,6 +32,14 @@
     />
   </head>
   <body>
+    <div id="floating"></div>
+    <script>
+      fetch("./components/floating.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("floating").innerHTML = data;
+        });
+    </script>
     <div id="header"></div>
     <script>
       fetch("./components/header.html")
@@ -200,6 +208,7 @@
   <div class="doc-team-content">
     <div class="doc-team-items container">
       <h1 class="animate-on-scroll">Team of Experts</h1>
+      <div class="line-dot"></div>
       <p>
         Our team of highly skilled optometrists brings a wealth of experience and knowledge, having graduated from prestigious institutions including CMCH Vellore, Sankara Nethralaya, Sri Ramachandra University, Manipal University, the University of New South Wales (Australia), and other renowned universities.
       </p>
@@ -296,6 +305,7 @@
   <div class="specialized-section container">
     <div class="specialized-container">
       <h1 class="animate-on-scroll">Our Specialized</h1>
+      <div class="line-dot"></div>
       <p>
         Trinity Optics stands out as one of the few optometry clinics in India with a team of highly qualified optometrists. Our practitioners hold advanced degrees, including Master's in Optometry, with specializations in:
       </p>
@@ -353,6 +363,7 @@
   <div class="expertise-content">
     <div class="expertise-content-heading container">
       <h1 class="animate-on-scroll">Our Expertise</h1>
+      <div class="line-dot"></div>
       <p>We are dedicated to comprehensive eye care and offer specialized services.</p></div>
     <div class="expertise-container">
       <div class="expertise-container1 container">
@@ -396,33 +407,33 @@
     <div class="Lab-Lense-item2 lab-img">
                 <div class="Lab-Lens-overlay">
         <a href="#" class="Lab-Lens-icon">
-          <h1>Single Vision</h1>
+          <h1>Bifocal</h1>
         </a>
         <div class="Lab-Lens-Purpose">
           <h1>Purpose</h1>
-          <p>For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+          <p>Corrects both near vision (reading) and distance vision.</p>
         </div>
       </div>
     </div>
     <div class="Lab-Lense-item3 lab-img">
       <div class="Lab-Lens-overlay">
         <a href="#" class="Lab-Lens-icon">
-          <h1>Single Vision</h1>
+          <h1>Progressive</h1>
         </a>
         <div class="Lab-Lens-Purpose">
           <h1>Purpose</h1>
-          <p>For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+          <p>Provides seamless vision for all distances (near, intermediate, and far).</p>
         </div>
       </div>
     </div>
     <div class="Lab-Lense-item4 lab-img">
                 <div class="Lab-Lens-overlay">
         <a href="#" class="Lab-Lens-icon">
-          <h1>Single Vision</h1>
+          <h1>Children's Lenses</h1>
         </a>
         <div class="Lab-Lens-Purpose">
           <h1>Purpose</h1>
-          <p>For near-sightedness(Myopia), farsightedness (Hyperopia), and astigmatism.</p>
+          <p>Designed specifically for children's needs.</p>
         </div>
       </div>
     </div>
@@ -431,6 +442,7 @@
 <section class="blog">
   <div class="blog-content container">
     <h1 class="animate-on-scroll">Blogs & Article </h1>
+    <div class="line-dot"></div>
     <div class="blog-container1 owl-carousel">
       <div class="blog-container-card">
         <img src="/assets/images/refractiveerror-blogcard.jpeg" alt="">

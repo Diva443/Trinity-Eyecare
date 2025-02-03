@@ -34,7 +34,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 57px;
-    color: #274760;
+    color: var(--color-1);
   }
   .appoinment-header{
     position: relative;
@@ -252,7 +252,7 @@ color: #666666;
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  color: #274760  ;
+  color: var(--color-1)  ;
 }
 .doctor-name .name{
   font-size: 24px;
@@ -286,7 +286,7 @@ color: #666666;
   background: linear-gradient(152.89deg, #88BCF1 14.38%, #CDE7EF 85.62%);
 }
 .schedule{
-  color:#274760;
+  color:var(--color-1);
 }
 .schedule i{
   font-size: 25px;
@@ -363,10 +363,8 @@ display: none;
   /*=============== About Us ===============*/
   .About-us{
     position: relative;
-    height: 1000px;
+    height: 900px;
     width: 100%;
-    font-size: 50px;
-    color: #000000;
     background: linear-gradient(278.51deg, #DEF7FF 4.18%, #FFFFFF 27.07%);
     /* background-image: linear-gradient(to right, #FFFFFF, #DEF7FF ); */
   }
@@ -488,7 +486,7 @@ display: none;
   .About-us-content-1 p{
   font-size: 18px;
   line-height: 23.7px;
-  font-weight: 300;
+  font-weight: 400;
   color: #888888;
   display: flex;
   text-align: justify;
@@ -508,13 +506,13 @@ display: none;
     font-weight: 500;
     font-size: 24px;    
   line-height: 50px;
-  color: #274760;
+  color: var(--color-1);
   display: flex;
   text-align: left;
   }
   .line-dot{
     height: 1px;
-    background-color: #274760;
+    background-color: var(--color-1);
     width: 29%;
     margin-left: 13%;
 }
@@ -523,7 +521,7 @@ display: none;
     height: 10px;
     width: 10px;
     border-radius: 10px;
-    background: #274760;
+    background: var(--color-1);
     margin-top: -4px;
     float: right;
 }
@@ -551,7 +549,7 @@ text-align: left;
 font-size: 24px;
 font-weight: 500;
 line-height: 28.44px;
-color: #274760;
+color: var(--color-1);
 }
 
 
@@ -572,7 +570,7 @@ color: #274760;
     color: #fff;
     width: 40px;
     height: 40px;
-    background-color:#274760;
+    background-color:var(--color-1);
     border-radius: 50%;
     rotate: -30deg;
   }
@@ -631,7 +629,7 @@ color: #274760;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  color: #274760;
+  color: var(--color-1);
    }
     .about-footer-text p{
   
@@ -715,13 +713,13 @@ color: #274760;
 font-style: normal;
 font-weight: 600;
 font-size:40px;
-color: #0F4699 ;
+color: var(--color-1) ;
 }
 .doc-team-items p{
 font-style: normal;
-font-weight: 400;
-font-size:20px;
-color: #666666;
+font-weight: var(--sub-heading-weight-2);
+font-size:var(--content1);
+color: var(--color-3);
 text-align: justify;
 }
 .doc-team-slider-content{
@@ -788,7 +786,7 @@ justify-content: flex-start;
 
 
 .doc-team-overlay{
-  background-color: #0b2287ae;
+  background-color: #f3f6f768;
   border: 5px solid #fff;
   position:absolute;
   left: 10%;
@@ -818,7 +816,7 @@ background-color:transparent;
 .doc-team-icon{
   border-radius: 50%;
   font-size: 35px;
-  color: #0b2287;
+  color: var(--color-1);
   width: 70px;
   height: 70px;
   background: #fff;
@@ -849,7 +847,7 @@ background-color:transparent;
 .doc-team-card-content h1{
   font-size: 16px;
   font-weight: 500;
-  color: #274760;
+  color: var(--color-1);
 }
 .doc-team-card-content h2{
   font-size: 12px;
@@ -887,10 +885,10 @@ color: var(--color-2);
   height: 700px;
   border-radius: 30px; 
   box-sizing: border-box;
-  background-color: #fff;
-  background: linear-gradient(179.15deg, #E9F2FF 0.73%, #FFFFFF 8.48%);
-  border: 1px solid #E4E4E4;
-  box-shadow: 0px 1px 1px #DFDFDF;
+  background-color: transparent;
+  /* background: linear-gradient(179.15deg, #E9F2FF 0.73%, #FFFFFF 8.48%); */
+  /* border: 1px solid #E4E4E4; */
+  /* box-shadow: 0px 1px 1px #DFDFDF; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -904,13 +902,13 @@ color: var(--color-2);
   font-size: 40px;
   display: flex;
   align-items: center;
-  color: #2670B4;
+  color: var(--color-1);
 }
 .specialized-container p{
   margin-left: 20px;
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: var(--content1);
 line-height: 28px;
 display: flex;
 align-items: center;
@@ -965,11 +963,11 @@ color: var(--color-3);
   display: flex;
   align-items: center;
   width: 70%;
-  color: #666666;
+  color: var(--color-1);
 }
 
 .specialized-carousal-item:hover{
-background-color: #0F4699;
+background-color: var(--color-1);
 }
 
 .specialized-carousal-item:hover h2, 
@@ -1015,7 +1013,7 @@ display: flex;
 align-items: center;
 text-align: justify;
 letter-spacing: 0.45px;
-color: #666666;
+color: var(--color-3);
 width: 95%;
 }
 
@@ -1045,8 +1043,11 @@ width: 95%;
   align-items: center;
   justify-content: flex-start;
   font-size: 25px;
+  
 }
-
+.specialized-readmore i{
+  rotate: -30deg;
+}
 @media screen and (max-width: 1240px){
  .specialized-container{
   width: 1000px;
@@ -1094,7 +1095,7 @@ width: 95%;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #2670B4;
+  color: var(--color-1);
 }
 .expertise-content-heading p{
   margin: 10px;
@@ -1105,6 +1106,7 @@ line-height: 28px;
 display: flex;
 align-items: center;
 color: var(--color-3);
+margin-top: 50px ;
 }
 
 
@@ -1112,6 +1114,7 @@ color: var(--color-3);
 .expertise-container1{
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 
 .expertise-container-content1{
@@ -1125,12 +1128,13 @@ height: 270px;
 background-color: #0F3699;
 display: flex;
 flex-direction: column;
-align-items: flex-start;
+align-items: center;
+justify-content: center;
 
 }
 .expertise-container-youngbrain h1{
-  color: #fff;
-  font-size: 36px;
+  color: var(--color-5);
+  font-size: var(--sub-heading-1);
   font-weight: 700px;
   line-height: 45px;
   margin: 20px;
@@ -1139,19 +1143,21 @@ align-items: flex-start;
 
 .expertise-container-youngbrain p{
   color: #fff;
-  font-size: 20px;
+  font-size: var(--content1);
   margin-left: 40px;
-  font-weight: 300px;
+  font-weight: var(--sub-heading-weight-2);
   line-height:25px;
+  text-align: center;
 }
 .expertise-container-lowvision{
   width: 100%;
 height: 330px;
-background-color: #7b7b7b;
+background-color:var(--color-7);
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+gap: 30px;
 }
 
 
@@ -1159,20 +1165,22 @@ align-items: center;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 40px;
+  gap: 15px;
   justify-content: center;
 }
 .expertise-container-lowvision h1{
-  color: #000;
-  font-size: 36px;
+  color: var(--color-1);
+  font-size: var(--sub-heading-1);
   font-weight: 700px;
   line-height: 45px;
   margin: 20px;
 }
 
 .expertise-container-lowvision p{
-  color: #000000;
-  font-size: 20px;
+  color: var(--color-3);
+  font-size: var(--content1);
+  text-align:justify;
+  width: 90%;
   margin-left: 40px;
   font-weight: 300px;
   line-height:25px;
@@ -1193,8 +1201,8 @@ align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size:contain;
-  height: 600px;
-  width: 600px;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -1217,7 +1225,7 @@ align-items: center;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  color: #2670B4;
+  color: var(--color-1);
 }
 
 .Lab-Lense-heading p{
@@ -1267,22 +1275,26 @@ color: var(--color-3);
   position: absolute;
   right: 15px;
   top:15px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
-  width: 150px;
+  width: 280px;
   height: 50px;
-  background-color:#274760;
+  background-color:var(--color-1);
   color: #fff;
   display: flex;
+  border-radius: 10px 0px 0px 10px;
   justify-content: center;
   align-items: center;
 }
-
+.Lab-Lens-icon h1{
+  width: 90%;
+  text-align: left;
+}
 .Lab-Lens-Purpose{
   position: absolute;
-  width: 250px;
+  width: 200px;
   height: 90px;
-  background-color:#274760;
+  background-color:var(--color-1);
   color: #fff;
   font-size: 12px;
   display: flex;
@@ -1290,7 +1302,7 @@ color: var(--color-3);
   align-items: start;
   justify-content: center;
   padding: 3%;
-  gap: 7%;
+  gap: 13%;
   border-radius: 0px 10px 10px 0px;
 }
 .Lab-Lens-Purpose {
@@ -1306,9 +1318,13 @@ color: var(--color-3);
 
 .Lab-Lens-Purpose h1{
   font-weight: 500;
+  width: 80%;
+  text-align: left;
 }
 .Lab-Lens-Purpose p{
   font-weight: 300;
+  width: 95%;
+  text-align: left;
 }
 @keyframes bottom2up {
   from {bottom: -500px;opacity: 0;}
@@ -1349,7 +1365,7 @@ color: var(--color-3);
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  color: #2670B4;
+  color: var(--color-1);
 }
 .blog-container1{
   height: 80%;
@@ -1372,9 +1388,9 @@ color: var(--color-3);
   align-items: center;
 }
 .blog-container-card img{
-  border-radius: 3%;
+  border-radius: 3% 3% 0 0;
   width: 100%;
-  background-color: #274760;
+  background-color: var(--color-1);
   background-position: center;
   background-size: contain;
 }
@@ -1388,9 +1404,9 @@ color: var(--color-3);
 .blog-container-description h1{
 padding-left: 5%;
 font-weight: 500;
-font-size: 20px;
+font-size: var(--content1);
 line-height: 24px;
-color: #274760;
+color: var(--color-1);
 margin-top: 20px;
 }
 .blog-container-description a{
