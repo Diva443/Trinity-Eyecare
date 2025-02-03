@@ -363,7 +363,7 @@ display: none;
   /*=============== About Us ===============*/
   .About-us{
     position: relative;
-    height: 900px;
+    height: 1200px;
     width: 100%;
     background: linear-gradient(278.51deg, #DEF7FF 4.18%, #FFFFFF 27.07%);
     /* background-image: linear-gradient(to right, #FFFFFF, #DEF7FF ); */
@@ -377,7 +377,7 @@ display: none;
   }
   .About-us1 {
     position: relative;
-    height: 600px;
+    height: 800px;
     display: flex;
     flex-wrap: wrap-reverse;
     flex-direction: row;
@@ -388,7 +388,7 @@ display: none;
     display: flex;
     flex-direction: row;
     margin: 15px;
-    margin-top: 50px;
+    margin-top: 240px;
   }
   
   .about-us-icon{
@@ -691,7 +691,7 @@ color: var(--color-1);
 
 .doc-team{
   position: relative;
-  margin-top: 100px;
+  margin-top: 50px;
   height: 600px; /* Fix the height of the section */
 
 }
@@ -868,8 +868,8 @@ color: var(--color-2);
 /*=============== Specialized ===============*/
 .specialized{
   position: relative;
-  margin-top: 100px;
-  height: 900px; /* Fix the height of the section */
+  margin-top: 50px;
+  height: 800px; /* Fix the height of the section */
   background-image: linear-gradient(to right, #DEF7FF, #FFFFFF);
   display: flex;
   align-items: center;
@@ -880,7 +880,6 @@ color: var(--color-2);
 }
 
 .specialized-container{
-  margin-top: 60px;
   width: 1200px;
   height: 700px;
   border-radius: 30px; 
@@ -1072,7 +1071,7 @@ width: 95%;
 
 .expertise{
   position: relative;
-  margin-top:100px ;
+  margin-top:30px ;
   height: auto;
 }
 .expertise-conten{
