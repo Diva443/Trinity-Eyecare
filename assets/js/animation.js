@@ -2,11 +2,26 @@
 $(document).ready(function () {
   $(".doc-team-slider").owlCarousel({
     loop: true,
-    items: 3, // Corrected property name (it's "items", not "item")
+    margin: 5,
+    items: 3,
     autoplay: true,
     dots: true,
     autoplayTimeout: 2000, // 3000ms = 3s
     autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1, // Show 1 item for screens <= 600px
+        margin: 10,
+      },
+      435: {
+        items: 2, // Show 2 items for screens <= 1200px
+        margin: 15,
+      },
+      1000: {
+        items: 3, // Show 3 items for screens > 1200px
+        margin: 20,
+      },
+    },
   });
 });
 
@@ -14,12 +29,25 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".specialized-carousal").owlCarousel({
     loop: true,
-    items: 3, // Corrected property name (it's "items", not "item")
+    items: 3,
     autoplay: true,
     dots: true,
     autoplayTimeout: 2000, // 3000ms = 3s
     autoplayHoverPause: true,
-    margin: 2,
+    responsive: {
+      0: {
+        items: 1, // Show 1 item for screens <= 600px
+        margin: 10,
+      },
+      435: {
+        items: 2, // Show 2 items for screens <= 1200px
+        margin: 15,
+      },
+      1000: {
+        items: 3, // Show 3 items for screens > 1200px
+        margin: 20,
+      },
+    },
   });
 });
 //Lab-Lense-carousal
@@ -50,7 +78,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".testimonial-carousel").owlCarousel({
     loop: true,
-    items: 2, // Corrected property name (it's "items", not "item")
+    items: 2,
     autoplay: true,
     dots: true,
     margin: 5,

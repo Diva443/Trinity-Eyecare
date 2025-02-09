@@ -586,7 +586,7 @@ color: var(--color-1);
     }
     .about-footer-container{
       width: 100%;
-      height: 100px;
+      height: 100%;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
@@ -699,7 +699,7 @@ color: var(--color-1);
 .doc-team{
   position: relative;
   margin-top: 50px;
-  height: 600px; /* Fix the height of the section */
+  height: auto; /* Fix the height of the section */
 
 }
 .doc-team-content{
@@ -732,6 +732,8 @@ text-align: justify;
 .doc-team-slider-content{
   display: flex;
   height: 400px;
+  width: 100%;
+  justify-content: center;
 }
 
 .doc-team-slider{
@@ -870,13 +872,18 @@ background-color:transparent;
 .doc-team-card-content:hover {
 color: var(--color-2);
 }
+@media screen and (max-width:1200px) {
+  .doc-team-items p{
+    width: 90%;
+  }
+}
 
 
 /*=============== Specialized ===============*/
 .specialized{
   position: relative;
   margin-top: 50px;
-  height: 800px; /* Fix the height of the section */
+  height: auto; /* Fix the height of the section */
   background-image: linear-gradient(to right, #DEF7FF, #FFFFFF);
   display: flex;
   align-items: center;
@@ -884,11 +891,12 @@ color: var(--color-2);
 }
 .specialized-section{
   height: auto;
+  width: 100%;
 }
 
 .specialized-container{
-  width: 1200px;
-  height: 700px;
+  width: 100%;
+  height: auto;
   border-radius: 30px; 
   box-sizing: border-box;
   background-color: transparent;
@@ -920,7 +928,10 @@ display: flex;
 align-items: center;
 color: var(--color-3);
 }
-
+.specialized-carousal-container{
+  width: 100%;
+  height: auto;
+}
 .specialized-carousal{    
   display: flex;
   align-items: center;
@@ -1054,7 +1065,7 @@ width: 95%;
 .specialized-readmore i{
   rotate: -30deg;
 }
-@media screen and (max-width: 1240px){
+/* @media screen and (max-width: 1240px){
  .specialized-container{
   width: 1000px;
   height: 600px;
@@ -1072,7 +1083,7 @@ width: 95%;
   scroll-behavior: smooth;
   scrollbar-width: 0;
  }
-}
+} */
 
 /*=============== Expertise1 ===============*/
 
@@ -1157,7 +1168,7 @@ justify-content: center;
 }
 .expertise-container-lowvision{
   width: 100%;
-height: 330px;
+height: auto;
 background-color:var(--color-7);
 display: flex;
 flex-direction: column;
@@ -1211,6 +1222,18 @@ gap: 30px;
   width: 100%;
 }
 
+@media screen and (max-width:1200px) {
+  .expertise-container-content1{
+    width: 100%;
+  }
+  .expertise-container-content2{
+    display: none;
+  }
+  
+  .expertise-container-lowvision-content{
+    flex-wrap: wrap;
+  }
+}
 
 /*=============== Lab-Lenses ===============*/
 
