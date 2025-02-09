@@ -9,8 +9,7 @@
     background-image: url('/assets/images/vectors/herobanner.svg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    height: 87vh;
+    height: 800px;
     display: block;
     z-index: 1;
   }
@@ -70,14 +69,17 @@
 .hero-section-doctor{
   display: flex;
   flex-direction: row;
-  height: 70vh;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
 }
 .banner-image{
   background-image: url('/assets/images/doctorprofile1.png');
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+  height: 600px;
+  width: 67%;
+  margin-top: 30px;
   background-position: 50%;
   z-index: 1;
 }
@@ -211,7 +213,7 @@ color: #666666;
 .doctor-cards{
   display: flex;
   align-items: flex-end;
-  margin-bottom: -60px;
+  margin-bottom: -125px;
   cursor: pointer;
   z-index: 3;
 }
@@ -299,7 +301,7 @@ color: #666666;
 .hero-section-footer{
   position: relative;
   width: 100%;
-  height: 150px;
+  height: 100px;
   background-color: #fff;
   z-index: 2;
   box-shadow: 0px 2px 15px 12px #CCDBF2;
@@ -309,61 +311,60 @@ color: #666666;
 
 /*=============== hero-section-responsive ===============*/
 
-@media screen and (max-width: 1240px){
-
-  .banner-image{
-display: none;
+@media screen and (max-width: 1024px){
+  .hero-section-appoinment{
+    width: 90%;
+    align-items: end;
   }
-.hero-section-doctor{
-  display: flex;
-  flex-direction: column-reverse;
-
-}
-.banner-card1{
-  display: none;
-}
+  .hero-section-doctor{
+    flex-wrap: wrap-reverse;
+  }
+  .banner-image{
+    height: 460px;
+    width: 91%;
+    margin-top: 136px;
+  }
+  .doctor-cards{
+    margin-left: calc(50% - 410px/2);
+  }
 .hero-section-footer{
-  height: 50px;
+  height: 80px;
 }
 }
 @media screen and (max-width: 600px){
-  .appoinment-header{
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 37px;
-    width: auto;
+  .hero-section-appoinment{
+    align-items: center;
+    gap: 140px;
   }
+  .banner-image{
+    display: none;  
+  }
+  .doctor-cards{
+    margin-top: 400px;
+  }
+  .appoinment-header{
+    width: 90%;
+    text-align: center;
+  }
+}
+@media screen and (max-width:425px) {
   .swiper{
-    width: 330px;
+    width: 320px;
     height: auto;
   }
+  .doctor-cards{
+    margin-left: calc(50% - 320px/2);
+  }
   .swiper-slide{
-    font-size: 18px;
+    font-size: var(--content1);
   }
-  .hero-section-appoinment{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  /* .appoinment-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 50px;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 350;
-  } */
 }
-
 
 
   /*=============== About Us ===============*/
   .About-us{
     position: relative;
-    height: 1200px;
+    height: auto;
     width: 100%;
     background: linear-gradient(278.51deg, #DEF7FF 4.18%, #FFFFFF 27.07%);
     /* background-image: linear-gradient(to right, #FFFFFF, #DEF7FF ); */
@@ -377,12 +378,12 @@ display: none;
   }
   .About-us1 {
     position: relative;
-    height: 800px;
+    height: 100%;
     display: flex;
-    flex-wrap: wrap-reverse;
     flex-direction: row;
-    gap: 100px;
-    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px; 
   }
   .About-us-images{
     display: flex;
@@ -475,12 +476,13 @@ display: none;
   .About-us-content{
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: auto;
     width: 600px;
   font-style: normal;
   gap: 50px;
   font-weight: 400;
   margin-top: 80px;
+  margin-bottom: 30px;
   }
   
   .About-us-content-1 p{
@@ -592,7 +594,7 @@ color: var(--color-1);
       justify-content: space-between;
     }
     .about-footer{
-      width: 33%;
+      width: 140px;
       height: auto;
       display: flex;
       flex-direction: column;
@@ -671,20 +673,25 @@ color: var(--color-1);
   }
   
   @media screen and (max-width: 1320px){
+    .about-us-content1{
+      margin-top: 100px;
+    }
+    .About-us1{
+      justify-content: center;
+    }
+    .About-us-images{
+      display: none;
+    }
     .About-us-content{
-      width: 400px;
+      width: 90%;
+    }
+    .about-footer-container{
+      justify-content: space-around;
     }
   }
   
-  @media screen and (max-width: 1061px){
-  .About-us{
-  height: 1200px;
-  }
-  .About-us-images{
-    display: none;
-  }
+
   
-  }
   
 
   /*=============== Doctor Team ===============*/

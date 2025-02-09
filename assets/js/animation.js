@@ -13,13 +13,13 @@ $(document).ready(function () {
 // Second Carousel
 $(document).ready(function () {
   $(".specialized-carousal").owlCarousel({
-    items: 3,
-    margin: 2,
-    autoPlay: true,
     loop: true,
-    nav: true,
-    autoplayTimeout: 2000,
+    items: 3, // Corrected property name (it's "items", not "item")
+    autoplay: true,
+    dots: true,
+    autoplayTimeout: 2000, // 3000ms = 3s
     autoplayHoverPause: true,
+    margin: 2,
   });
 });
 //Lab-Lense-carousal

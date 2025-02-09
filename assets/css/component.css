@@ -30,7 +30,7 @@
 
 /* 🔹 Logo */
 .nav_logo {
-  background-image: url('/assets/images/logo.png');
+  background-image: url('/assets/images/logo.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -390,7 +390,7 @@
   flex-direction: column;
   height: 60%;
   width: 38%;
-  justify-content: space-between;
+  gap: 40px;
   align-items: flex-start;
 }
 .footer-appoinment1{
@@ -540,7 +540,31 @@ text-align: left;
   letter-spacing: 0.42px;
   color: #274760;
   }
+
   
+/*=============== footer responsive ===============*/
+@media screen and (max-width:992px) {
+  .footer-appoinment{
+    width: 100%;
+    left: calc(50% - 100%/2);
+    height: 100%;
+  }
+  .footer-appoinmet-content{
+  flex-wrap: wrap-reverse;
+  width: 90%;
+  justify-content: center;
+  align-items: start;
+  }  
+  .footer-img{
+    margin-bottom: 0;
+  }
+  .footer-appoinment-section{
+    height: 21%;
+    width: 358px;
+  }
+}
+
+
 /*Floatings*/
   
 .whatsapp-icon {
