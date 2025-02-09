@@ -1302,11 +1302,8 @@ color: var(--color-3);
 
 .Lab-Lens-icon{
   position: absolute;
-  right: 15px;
-  top:15px;
   font-size: 12px;
   font-weight: 500;
-  width: 280px;
   height: 50px;
   background-color:var(--color-1);
   color: #fff;
@@ -1360,8 +1357,8 @@ color: var(--color-3);
   to {bottom: -250px;opacity: 1;}
 }
 @keyframes up2bottom {
-  from {top: -500px;right: -220px;;opacity: 0;}
-  to {top: 40px;right: -220px;opacity: 1;}
+  from {top: -500px;right: -300px;;opacity: 0;}
+  to {top: 40px;right: -180px;opacity: 1;}
 }
 
 .lab-img:hover .Lab-Lens-Purpose {
