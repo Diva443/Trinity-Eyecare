@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Trinity Optics</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/contact.css" />
+    <link rel="stylesheet" href="/assets/css/animation.css" />
+    <link rel="stylesheet" href="/assets/css/component.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <section class="breadcrumb-banner">
+      <div class="breadcrumb-banner-bg">
+        <div class="breadcrumb-content container">
+          <div class="breadcrumb-content1">
+            <h1 class="">Contact Page</h1>
+            <h2>
+              Welcome to Trinity Optics. Your OneStop Destination for
+              Comprehensive Eye Care.
+            </h2>
+          </div>
+          <div class="specialized-content2"></div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-container container">
+        <a
+          href="https://maps.app.goo.gl/arNmpy8AKuRiiPPdA"
+          target="_blank"
+          class="contact-card"
+        >
+          <img src="/assets/images/trinity_branch1.jpg" alt="" />
+          <div class="contact-card-content">
+            <h1>Porur</h1>
+            <div class="contact-card-location">
+              <i class="ri-map-pin-add-line"></i>
+              <span
+                >No. 68/2 Arcot Road, Porur, Chennai- 600116 Contact:
+                576789900</span
+              >
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/CDgdmp4GhhcyzR9d9"
+          target="_blank"
+          class="contact-card"
+        >
+          <img src="/assets/images/trinity_branch1.jpg" alt="" />
+          <div class="contact-card-content">
+            <h1>Keelkattalai</h1>
+            <div class="contact-card-location">
+              <i class="ri-map-pin-add-line"></i>
+              <span
+                >Medavakkam Main Rd,Rajamanickam
+                Nagar,Keelkattalai Chennai-600117. Contact: 576789900</span
+              >
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/ErNSFyjoRU9HMwho8"
+          target="_blank"
+          class="contact-card"
+        >
+          <img src="/assets/images/trinity_branch1.jpg" alt="" />
+          <div class="contact-card-content">
+            <h1>Kumananchavadi</h1>
+            <div class="contact-card-location">
+              <i class="ri-map-pin-add-line"></i>
+              <span
+                >No.2/9 Mangadu - Kundrathur
+                Road,Kumananchavadi, Chennai-600056. Contact: 576789900</span
+              >
+            </div>
+          </div>
+        </a>
+        <a
+          href="https://maps.app.goo.gl/arNmpy8AKuRiiPPdA"
+          target="_blank"
+          class="contact-card"
+        >
+          <img src="/assets/images/trinity_branch1.jpg" alt="" />
+          <div class="contact-card-content">
+            <h1>Porur</h1>
+            <div class="contact-card-location">
+              <i class="ri-map-pin-add-line"></i>
+              <span
+                >No. 40, 3rd Main Road, Lakshmi Nagar, Porur, Chennai-600116
+                Contact: 78713 39161  </span
+              >
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <div id="footer"></div>
+    <script>
+      fetch("../components/footer.html") // Absolute path from the root
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/animation.js"></script>
+  </body>
+</html>

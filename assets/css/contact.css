@@ -1,0 +1,62 @@
+.contact{
+    height: auto;
+    position: relative;
+    margin-bottom: 350px;
+}
+.contact-container{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%; 
+    gap: 50px;
+}
+
+.contact-card{
+    width: 550px;
+    height: 400px;
+    box-shadow: 0px 2px 8px 0px #D9D9D9;
+    display: flex;
+    flex-direction: column;
+}
+.contact-card img{
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+}
+.contact-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-card-content h1,i{
+font-weight: var(--sub-heading-weight-2);
+font-size: var(--sub-heading-2);
+line-height: var(--sub-heading-2);
+text-align: center;
+color: var(--color-2);
+}
+
+.contact-card-location{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 5%;
+}
+.contact-card-location span{
+
+font-weight: var(--sub-heading-weight-2);
+font-size: var(--content2);
+line-height: var(--sub-heading-2);
+color: var(--color-1);
+
+
+}

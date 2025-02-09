@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specialized- Trinity Optics</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/specialized.css" />
+    <link rel="stylesheet" href="/assets/css/animation.css" />
+    <link rel="stylesheet" href="/assets/css/component.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <section class="breadcrumb-banner">
+      <div class="breadcrumb-banner-bg">
+        <div class="breadcrumb-content container">
+          <div class="breadcrumb-content1">
+            <h1 class="">Our Specialized</h1>
+            <h2>
+              Trinity Optics stands out as one of the few optometry clinics in
+              India with a team of highly qualified optometrists
+            </h2>
+          </div>
+          <div class="specialized-content2"></div>
+        </div>
+      </div>
+    </section>
+    <section class="specialized-section container">
+      <h1>
+        Our practitioners hold advanced degrees, including Master's in
+        Optometry, with specializations in
+      </h1>
+      <div class="specialized-section-buttons">
+        <button
+          class="specialized-button"
+          onclick="openPage('pediatric-assessment',this)"
+        >
+          <div class="specialized-button-img1 specialized-button-img">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Pediatric assessment</span>
+          </div>
+        </button>
+        <button
+          class="specialized-button"
+          id="defaultOpen"
+          onclick="openPage('binocular-vision',this)"
+        >
+          <div class="specialized-button-img2 specialized-button-img">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Binocular Vision Assessment & Vision Therapy</span>
+          </div>
+        </button>
+        <button
+          class="specialized-button"
+          onclick="openPage('scientific-dispensing',this)"
+        >
+          <div class="specialized-button-img3 specialized-button-img">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Scientific Dispensing</span>
+          </div>
+        </button>
+        <button
+          class="specialized-button"
+          onclick="openPage('contact-lenpractice',this)"
+        >
+          <div class="specialized-button-img4 specialized-button-img">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Contact Lens Practice</span>
+          </div>
+        </button>
+        <button
+          class="specialized-button"
+          onclick="openPage('glaucoma-retina',this)"
+        >
+          <div class="specialized-button-img5 specialized-button-img">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Glaucoma & Retina Screening</span>
+          </div>
+        </button>
+      </div>
+      <div class="specialized-section-content">
+        <div class="specialized-content-1" id="pediatric-assessment">
+          <div class="pediatric-assessment">
+            <div class="pediatric-assessment-heading">
+              <img src="/assets/icons/pediatric-icon.svg" alt="" />
+              <h1>Pediatric assessment</h1>
+            </div>
+            <p>
+              Paediatric optometry clinic at Trinity Optics specializes in eye
+              care for children, offering services like vision screenings, eye
+              exams, and treatment for eye conditions such as amblyopia (lazy
+              eye), strabismus (crossed eyes), and refractive errors exclusively
+              for myopia management. The clinic uses child-friendly equipment
+              and techniques to ensure a comfortable and engaging experience for
+              young patients.
+            </p>
+            <div class="pediatric-img"></div>
+            <p>
+              Ensuring your child undergoes regular vision screenings is crucial
+              for their overall development. The American Academy of
+              Ophthalmology (AAO) recommends the following screening schedule:
+            </p>
+            <div class="pediatric-content">
+              <div class="pediatric-content-1">
+                <div class="p-img1">
+                  <div class="img-op">Deep of Exercise</div>
+                </div>
+                <div class="p-img2"></div>
+              </div>
+              <div class="pediatric-content-2">
+                <div class="pediatric-age-content">
+                  <div class="pediatric-age-content1">
+                    <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                    <h1>Newborn to 12 months:</h1>
+                  </div>
+                  <h2>
+                    During routine well-child visits, infants should have their
+                    ocular health assessed, including external inspection,
+                    pupillary examination, corneal light reflection, and
+                    assessment of fixation and following behavior.
+                  </h2>
+                </div>
+                <div class="pediatric-age-content">
+                  <div class="pediatric-age-content1">
+                    <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                    <h1>Ages 1 to 4 years:</h1>
+                  </div>
+                  <h2>
+                    Continue ocular health assessments at each well-child visit.
+                    Instrument-based vision screening can be initiated as early
+                    as age 1.
+                  </h2>
+                </div>
+                <div class="pediatric-age-content">
+                  <div class="pediatric-age-content1">
+                    <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                    <h1>Ages 3 to 5 years:</h1>
+                  </div>
+                  <h2>
+                    Between 3 and 5 years, a child’s vision and eye alignment
+                    should be checked. Visual acuity should be tested as soon as
+                    the child is old enough to read an eye chart. Refractive
+                    error status and interventions are very crucial at this
+                    stage.
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <p>
+              Early detection of issues like amblyopia (lazy eye) or strabismus
+              (crossed eyes) is vital, as these conditions can impact visual
+              development and academic performance.
+            </p>
+            <p>
+              At Trinity Optics, our specialized optometrists are equipped to
+              perform comprehensive paediatric eye examinations in line with AAO
+              guidelines. Safeguard your child's vision by scheduling an
+              appointment with us today
+            </p>
+          </div>
+        </div>
+        <div class="specialized-content-1" id="binocular-vision">
+          <div class="binocular-vision-assessment">
+            <div class="binocular-vision-assessment-heading">
+              <img src="/assets/icons/pediatric-icon.svg" alt="" />
+              <h1>Binocular Vision Assessment and Vision Therapy</h1>
+            </div>
+            <p>
+              "Addressing binocular vision disorders such as convergence
+              insufficiency, accommodative disorders, and intermittent squints
+              is quite important. Extensive examinations are performed at our
+              clinic
+            </p>
+            <div class="pediatric-img"></div>
+            <p>
+              Binocular and orthoptic examinations are crucial for assessing the
+              coordination and teamwork of your eye muscles. These assessments
+              help detect potential binocular vision disorders, which may cause
+              symptoms such as eye strain, headaches, tired eyes, intermittent
+              blurry vision, difficulty maintaining focus, or even sleepiness
+              after prolonged visual tasks.
+            </p>
+            <div class="binocular-vision-content">
+              <div class="binocular-vision-content-1">
+                <div class="p-img1">
+                  <div class="img-op">Deep of Exercise</div>
+                </div>
+                <div class="p-img2"></div>
+              </div>
+              <div class="binocular-vision-content-2">
+                <p>
+                  Additionally, stereopsis assessment—the ability to perceive
+                  depth and 3D vision—is an integral part of a comprehensive
+                  binocular vision evaluation. Impaired stereopsis can affect
+                  tasks like reading, sports performance, or any activity
+                  requiring precise hand-eye coordination.
+                </p>
+                <p>
+                  At Trinity Optics, we conduct detailed binocular vision
+                  assessments to diagnose accommodation and vergence disorders.
+                  These conditions, once identified, are treated using a
+                  combination of in-office vision therapy and tailored home
+                  vision therapy exercises. Our clinic also offers specialized
+                  tools to enhance stereopsis, helping patients achieve optimal
+                  depth perception and visual efficiency.
+                </p>
+              </div>
+            </div>
+            <p>
+              Make an appointment today for a thorough binocular vision and
+              stereopsis assessment at Trinity Optics. We take pride in being
+              one of the few clinics equipped with advanced vision therapy
+              supplies. Visit our store to explore our range of home vision
+              therapy tools!
+            </p>
+          </div>
+        </div>
+        <div class="specialized-content-1" id="scientific-dispensing">
+          <div class="scientific-dispensing-assessment">
+            <div class="scientific-dispensing-assessment-1">
+              <div class="scientific-dispensing-assessment-1-left">
+                <div class="scientific-dispensing-assessment-heading">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Scientific Dispensing</h1>
+                </div>
+                <h3>
+                  Accredited by the Association of British Dispensing Opticians
+                  (ABDO), ensuring the highest standards in eyewear selection
+                  and fitting. Prescribing prisms to treat vergence anomalies,
+                  double vision, and as part of an eye exercise regimen is one
+                  of our stand-out practices.
+                </h3>
+              </div>
+              <div class="scientific-dispensing-assessment-1-right">
+                <img src="/assets/images/scientific-dispensing-2.svg" alt="" />
+              </div>
+            </div>
+            <h3>
+              At Trinity Optics, we believe that every individual deserves
+              spectacles that not only enhance their vision but also complement
+              their unique facial structure, lifestyle, and visual needs. Our
+              expert opticians carefully assess several key factors to provide
+              the perfect fit for both adults and children.
+            </h3>
+            <div class="scientific-dispensing-assessment-2">
+              <div class="scientific-dispensing-assessment-2-left"></div>
+              <div class="scientific-dispensing-assessment-2-right">
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Facial Measurements and Dimensions</h1>
+                  <span
+                    >Proper facial measurements are crucial for ensuring a
+                    comfortable and secure fit. We take detailed measurements,
+                    including</span
+                  >
+                  <span>
+                    <h2>Pupillary Distance (PD):</h2>
+                    Ensures proper lens alignment for clear, comfortable vision.
+                    <h2>Bridge Width and Temple Length:</h2>
+                    For a snug fit without slipping or pinching.
+                    <h2>Face Shape and Proportions:</h2>
+                    Helps select frames that enhance appearance while providing
+                    optimal functionality</span
+                  >
+                  <span
+                    >For children, special attention is given to ensure the
+                    frames sit comfortably on smaller noses and ears, with
+                    lightweight and durable materials.</span
+                  >
+                </div>
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Lifestyle Considerations</h1>
+                  <span>
+                    <h2>Adults:</h2>
+                    We consider occupational needs, such as blue-light blocking
+                    lenses for digital device users, progressive lenses for
+                    those needing multifocal correction, and sports eyewear for
+                    active individuals.
+                  </span>
+                  <span>
+                    <h2>Children:</h2>
+                    Durable, flexible, and impact-resistant frames are
+                    recommended for active lifestyles. For young athletes, we
+                    offer sports goggles with prescription lenses.</span
+                  >
+                </div>
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Visual Requirements</h1>
+                  <span
+                    >Single vision, bifocal, or progressive lenses based on the
+                    prescription.</span
+                  >
+                  <span>
+                    Special lens coatings like anti-reflective, UV protection,
+                    or scratch resistance for added functionality and longevity.
+                  </span>
+                  <span
+                    >High-index lenses for stronger prescriptions to keep
+                    glasses lightweight and comfortable.</span
+                  >
+                </div>
+                <div class="scientific-dispensing-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Aesthetics and Style</h1>
+                  <span
+                    >We offer a wide range of frame styles, colors, and
+                    materials to suit personal preferences, whether it's a sleek
+                    professional look for adults or colorful, fun designs for
+                    kids.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="points">
+              <span>
+                Comprehensive Eye Care: From vision assessments to spectacle
+                dispensing, we provide end-to-end services.<br />
+              </span>
+              <span>
+                Expert Guidance: Our experienced opticians help you choose the
+                best eyewear to meet your needs.<br />
+              </span>
+              <span>
+                Child-Friendly Environment: We ensure children feel comfortable
+                and engaged during the fitting process.<br />
+              </span>
+            </div>
+            <h3>
+              Visit Trinity Optics today to find your perfect pair of glasses.
+              Let us help you and your family see the world more clearly and
+              stylishly
+            </h3>
+          </div>
+        </div>
+        <div class="specialized-content-1" id="contact-lenpractice">
+          <div class="Contact-lenspractice-assessment">
+            <div class="Contact-lenspractice-assessment-1">
+              <div class="Contact-lenspractice-assessment-1-left">
+                <div class="Contact-lenspractice-assessment-heading">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Contact Lens Practice</h1>
+                </div>
+                <p>
+                  Certified by the International Association of Contact Lens
+                  Educators (IACLE), providing expert contact lens fittings and
+                  management.Specialty lens fittings, such as RGP, Rose-K,
+                  scleral, and ortho-k, are added to our expertise.
+                </p>
+                <p>
+                  Certified by the International Association of Contact Lens
+                  Educators (IACLE), providing expert contact lens fittings and
+                  management.Specialty lens fittings, such as RGP, Rose-K,
+                  scleral, and ortho-k, are added to our expertise.
+                </p>
+              </div>
+              <div class="Contact-lenspractice-assessment-1-right">
+                <div class="contact-img1">
+                  <div class="img-op">Deep of Exercise</div>
+                </div>
+                <img
+                  src="/assets/images/pediatric-img2.svg"
+                  class="Contact-img2"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="Contact-lenspractice-assessment-2">
+              <div class="Contact-lenspractice-assessment-2-content">
+                <div class="Contact-lenspractice-assessment-card1">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Comprehensive Contact Lens Options</h1>
+                  <span
+                    >Our team of highly trained optometrists specializes in a
+                    wide range of contact lenses, including:</span
+                  >
+                  <div class="points-card">
+                    <span>
+                      Soft Lenses: Ideal for everyday comfort and ease of
+                      use.</span
+                    ><br />
+                    <span
+                      >Soft Toric Lenses: For individuals with
+                      astigmatism.</span
+                    ><br />
+                    <span
+                      >RGP(Rigid Gas Permeable) Lenses: Providing superior
+                      vision clarity and durability.</span
+                    ><br />
+                    <span
+                      >Multifocal Lenses: Designed for Presbyopia, offering
+                      clear vision at all distances.</span
+                    ><br />
+                    <span>
+                      Specialty Lenses: Ortho-K (Orthokeratology): Non-surgical
+                      myopia control lenses worn overnight.</span
+                    ><br />
+                    <span
+                      >Rose K Lenses: Tailored for patients with
+                      keratoconus.</span
+                    ><br />
+                    <span
+                      >Scleral Lenses: Offering comfort and vision correction
+                      for irregular corneas and dry eye.</span
+                    ><br />
+                  </div>
+                </div>
+                <div class="Contact-lenspractice-assessment-card1">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Prosthetic and Therapeutic Lenses</h1>
+                  <span
+                    >We also offer specialized lenses for unique visual
+                    needs:</span
+                  >
+                  <div class="points-card">
+                    <span>
+                      Prosthetic Contact Lenses: For improving cosmetic
+                      appearance and masking eye disfigurements.</span
+                    ><br />
+                    <span
+                      >X-Chrome Lenses: Enhancing color perception for
+                      individuals with color vision deficiency.</span
+                    ><br />
+                    <span
+                      >Bandage Contact Lenses: Protecting and promoting healing
+                      for corneal injuries and post-surgical recovery..</span
+                    ><br />
+                  </div>
+                </div>
+                <div class="Contact-lenspractice-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>MiSight Myopia Management Lenses</h1>
+                  <span
+                    >Trinity Optics provides MiSight lenses, an innovative
+                    solution designed to slow myopia progression in
+                    children.</span
+                  >
+                </div>
+                <div class="Contact-lenspractice-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Expert Training and Partnerships</h1>
+                  <span
+                    >Our optometrists are certified through advanced training
+                    programs conducted by leading global brands like Johnson &
+                    Johnson, Bausch & Lomb, CooperVision, and Alcon.
+                    Additionally, they’ve gained expertise from renowned
+                    institutions, including Sankara Nethralaya and LV Prasad Eye
+                    Institute.</span
+                  >
+                </div>
+                <div class="Contact-lenspractice-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Authorized Dealer for Premium Contact Lens Brands</h1>
+                  <span
+                    >We are proud to offer a wide selection of contact lenses
+                    from internationally trusted brands, ensuring the highest
+                    quality and performance:</span
+                  >
+                  <div class="points-card">
+                    <span>Johnson & Johnson</span><br />
+                    <span>Bausch & Lomb</span><br />
+                    <span>CooperVision</span><br />
+                    <span>Alcon</span><br />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2>Why Choose Trinity Optics?</h2>
+            <div class="points">
+              <span>
+                Comprehensive Eye Care: From vision assessments to spectacle
+                dispensing, we provide end-to-end services.<br />
+              </span>
+              <span>
+                Expert Guidance: Our experienced opticians help you choose the
+                best eyewear to meet your needs.<br />
+              </span>
+              <span>
+                Child-Friendly Environment: We ensure children feel comfortable
+                and engaged during the fitting process.<br />
+              </span>
+            </div>
+            <h3>
+              Switch to contact lenses and experience the freedom of clear,
+              unobstructed vision. Visit Trinity Optics today and let our
+              specialists guide you toward the perfect contact lens solution.
+            </h3>
+          </div>
+        </div>
+        <div class="specialized-content-1" id="glaucoma-retina">
+          <div class="glaucoma-retina-assessment">
+            <div class="glaucoma-retina-assessment-1">
+              <div class="glaucoma-retina-assessment-1-left">
+                <div class="glaucoma-retina-assessment-heading">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Glaucoma and Retina Screening</h1>
+                </div>
+                <p>
+                  High-end equipment, such as a fundus camera and a portable
+                  visual field analyzer, is used for diagnosing diabetic and
+                  hypertensive retinopathy, ARMD, macular edema, macular holes,
+                  and confirmatory signs of glaucoma, including a high
+                  cup-to-disc ratio, scotomas, and restricted peripheral visual
+                  fields
+                </p>
+                <h2>Advanced Facilities at Trinity Optics</h2>
+                <p>
+                  At Trinity Optics, we are dedicated to providing comprehensive
+                  eye care. Our high-end equipment ensures precise diagnosis and
+                  effective management of various eye conditions, especially for
+                  individuals over 40 who are at higher risk of age-related eye
+                  diseases.
+                </p>
+              </div>
+              <div class="glaucoma-retina-assessment-1-right">
+                <img src="/assets/images/scientific-dispensing-2.svg" alt="" />
+              </div>
+            </div>
+            <div class="glaucoma-retina-assessment-2">
+              <div class="glaucoma-retina-assessment-2-content">
+                <div class="glaucoma-retina-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Applanation Tonometer</h1>
+                  <span
+                    >The applanation tonometer is a crucial tool for measuring
+                    intraocular pressure (IOP).
+                  </span>
+                  <span
+                    >Accurate IOP readings help in the early detection and
+                    management of glaucoma, a condition that can lead to
+                    irreversible vision loss if left untreated.</span
+                  >
+                  <span
+                    >Regular tonometry screenings are especially vital for those
+                    with a family history of glaucoma or individuals over
+                    40.</span
+                  >
+                </div>
+                <div class="glaucoma-retina-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Forus Fundus Camera</h1>
+                  <span
+                    >Our state-of-the-art Forus fundus camera captures
+                    high-resolution images of the retina, enabling detailed
+                    examination of the optic nerve, macula, and blood vessels.
+                    This is essential for diagnosing and monitoring</span
+                  >
+                  <div class="points-card">
+                    <span>Diabetic Retinopathy</span><br />
+                    <span>Hypertensive Retinopathy</span><br />
+                    <span>Age-Related Macular Degeneration (ARMD)</span><br />
+                    <span>Macular Edema</span><br />
+                    <span>Macular Holes</span><br />
+                  </div>
+                  <span
+                    >These high-quality images allow for better patient
+                    education and provide a basis for treatment decisions.</span
+                  >
+                </div>
+                <div class="glaucoma-retina-assessment-card">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>Comprehensive Eye Health Monitoring</h1>
+                  <span
+                    >With our advanced diagnostic tools, we provide thorough
+                    evaluations to detect early signs of eye conditions, such
+                    as</span
+                  >
+                  <div class="points">
+                    <span> High cup-to-disc ratios in glaucoma<br /> </span>
+                    <span> Peripheral visual field loss<br /> </span>
+                    <span>
+                      Retinal changes due to systemic conditions like diabetes
+                      and hypertension<br />
+                    </span>
+                  </div>
+                </div>
+                <div class="glaucoma-retina-assessment-card1">
+                  <img src="/assets/icons/pediatric-icon.svg" alt="" />
+                  <h1>AVA Vision Analyzer</h1>
+                  <span
+                    >The Advanced Vision Analyzer (AVA) is a state-of-the-art,
+                    portable virtual reality (VR) perimeter designed to perform
+                    perimetry tests in various settings, including clinics and
+                    home-based environments. It is particularly beneficial
+                    for:</span
+                  >
+                  <div class="ava-vision-analyzer-section">
+                    <div class="ava-vision-analyzer-section1">
+                      <i class="fas fa-baby"></i>
+                      <div class="ava-vision-analyzer-content">
+                        <h4>Early Detection of Visual Field Defects</h4>
+                        <span
+                          >AVA effectively captures threshold values for each
+                          point in the visual field, aiding in the early
+                          detection of conditions like glaucoma.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="ava-vision-analyzer-section1">
+                      <i class="fas fa-baby"></i>
+                      <div class="ava-vision-analyzer-content">
+                        <h4>Early Detection of Visual Field Defects</h4>
+                        <span
+                          >AVA effectively captures threshold values for each
+                          point in the visual field, aiding in the early
+                          detection of conditions like glaucoma.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="ava-vision-analyzer-section1">
+                      <i class="fas fa-baby"></i>
+                      <div class="ava-vision-analyzer-content">
+                        <h4>Early Detection of Visual Field Defects</h4>
+                        <span
+                          >AVA effectively captures threshold values for each
+                          point in the visual field, aiding in the early
+                          detection of conditions like glaucoma.</span
+                        >
+                      </div>
+                    </div>
+                    <div class="ava-vision-analyzer-section1">
+                      <i class="fas fa-baby"></i>
+                      <div class="ava-vision-analyzer-content">
+                        <h4>Early Detection of Visual Field Defects</h4>
+                        <span
+                          >AVA effectively captures threshold values for each
+                          point in the visual field, aiding in the early
+                          detection of conditions like glaucoma.</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    >Incorporating the AVA into our practice allows us to
+                    provide advanced, accurate, and comfortable visual field
+                    testing for our patients, ensuring early detection and
+                    effective management of various ocular conditions. Our
+                    portable visual field analyzer is used to detect and
+                    evaluate visual field defects, which are often early
+                    indicators of glaucoma. It helps identify</span
+                  >
+
+                  <div class="points-card">
+                    <span>Scotomas (blind spots)</span><br />
+                    <span>Restricted Peripheral Vision</span><br />
+                  </div>
+                  <span
+                    >This tool plays a key role in diagnosing and tracking the
+                    progression of glaucoma and other optic nerve
+                    disorders.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <h2>Why Choose Trinity Optics?</h2>
+            <div class="points">
+              <span>
+                Comprehensive Eye Care: From vision assessments to spectacle
+                dispensing, we provide end-to-end services.<br />
+              </span>
+              <span>
+                Expert Guidance: Our experienced opticians help you choose the
+                best eyewear to meet your needs.<br />
+              </span>
+              <span>
+                Child-Friendly Environment: We ensure children feel comfortable
+                and engaged during the fitting process.<br />
+              </span>
+            </div>
+            <h3>
+              Switch to contact lenses and experience the freedom of clear,
+              unobstructed vision. Visit Trinity Optics today and let our
+              specialists guide you toward the perfect contact lens solution.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+    <script>
+      fetch("../components/footer.html") // Absolute path from the root
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+
+    <script>
+      function openPage(pageName, elmnt, color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("specialized-content-1");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("specialized-button");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+    <script src="/assets/js/animation.js"></script>
+  </body>
+</html>
