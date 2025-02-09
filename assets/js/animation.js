@@ -57,10 +57,22 @@ $(document).ready(function () {
     items: 4,
     autoPlay: true,
     loop: true,
-    dots: true,
-    nav: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1, // Show 1 item for screens <= 600px
+      },
+      435: {
+        items: 2, // Show 2 items for screens <= 1200px
+      },
+      760: {
+        items: 3, // Show 3 items for screens > 1200px
+      },
+      1000: {
+        items: 4, // Show 3 items for screens > 1200px
+      },
+    },
   });
 });
 
@@ -72,6 +84,20 @@ $(document).ready(function () {
     loop: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1, // Show 1 item for screens <= 600px
+        margin: 10,
+      },
+      435: {
+        items: 2, // Show 2 items for screens <= 1200px
+        margin: 15,
+      },
+      1000: {
+        items: 3, // Show 3 items for screens > 1200px
+        margin: 20,
+      },
+    },
   });
 });
 
