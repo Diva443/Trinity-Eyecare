@@ -589,7 +589,7 @@ text-align: left;
 .appoinment-card {
   position: fixed;
   top: 50%;
-  right: -77px; /* Initially hidden */
+  right: -1%; /* Initially hidden */
   height: auto;
   width: auto;
   display: flex;
@@ -599,17 +599,16 @@ text-align: left;
   transition: transform 0.5s ease-in-out; /* Smooth movement */
 }
 
-.appoinment-card .fa-chevron-left{
-  height: auto;
+.appoinment-card .fa-address-book{
+  display: none;
+  /* height: auto;
   width: 59%;
   font-size: var(--sub-heading-1);
   color: var(--color-1);
-  cursor: pointer;
+  cursor: pointer; */
 }
 
-.appoinment-card:hover {
-  transform: translateX(-77px); /* Move left on hover */
-}
+
 
 .appoinment-card-content{
   width: 13vh;
@@ -639,4 +638,23 @@ text-align: left;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
+}
+
+@media screen and (max-width:1000px) {
+  .appoinment-card{
+    right: -77px;
+  }
+
+  .appoinment-card .fa-address-book{
+    display: block;
+    height: auto;
+    width: 59%;
+    font-size: var(--sub-heading-1);
+    color: var(--color-1);
+    cursor: pointer;
+  }
+  
+  .appoinment-card:hover {
+    transform: translateX(-77px); /* Move left on hover */
+  }
 }
