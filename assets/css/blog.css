@@ -268,7 +268,7 @@
     .blog-section-buttons{
         display: flex;
         flex-direction: column;
-        height: 1200px;
+        height: auto;
         width: 100%;
         justify-content: space-around;
     }
@@ -276,6 +276,7 @@
         display: flex;
         flex-direction: column;
         height: 94%;
+        gap: 40px;
         justify-content: space-between;
     }
     
@@ -310,6 +311,9 @@
     }
     .blog-button-img4{
         background-image: url('/assets/images/blogimg4.svg');
+    }
+    .blog-button-img5{
+        background-image: url('/assets/images/blogimg5.svg');
     }
     
     .blog-footer-container{

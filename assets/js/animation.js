@@ -89,7 +89,7 @@ $(document).ready(function () {
         items: 1, // Show 1 item for screens <= 600px
         margin: 10,
       },
-      435: {
+      765: {
         items: 2, // Show 2 items for screens <= 1200px
         margin: 15,
       },
