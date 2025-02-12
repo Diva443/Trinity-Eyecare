@@ -196,3 +196,26 @@ align-items: center;
 font-size: var(--sub-heading-2);
 color:var(--color-5);
 }
+
+@media (max-width:768px){
+    .young-brain-section1,.young-brain-section2{
+        width: 90%;
+    }
+    .young-brain-setion1-content{
+        width: 90%;
+    }
+}
+
+@media (min-width:769px){
+    .young-brain-section1,.young-brain-section2{
+        width: 90%;
+    }
+    .young-brain-setion1-content{
+        width: 90%;
+    }
+}
+@media(max-width:400px){
+    .yb-card{
+        width: 90%;
+    }
+}
