@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RX Lab Trinty Optics</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/component.css" />
+    <link rel="stylesheet" href="/assets/css/animation.css" />
+    <link rel="stylesheet" href="/assets/css/rxlab.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <section class="breadcrumb-banner">
+      <div class="breadcrumb-banner-bg">
+        <div class="breadcrumb-content container">
+          <div class="breadcrumb-content1">
+            <h1 class="animate-on-scroll">Rx Lab</h1>
+            <h2>
+              Understanding Refractive Errors: Myopia, Hyperopia, and
+              Astigmatism
+            </h2>
+          </div>
+          <div class="specialized-content2"></div>
+        </div>
+      </div>
+    </section>
+    <section class="rxlab">
+      <div class="rxlab-content container">
+        <h1>Range of Lenses at Trinity Optics</h1>
+        <div class="rxlab-content-1">
+          <div class="rxlab-lab-card1">
+            <img src="/assets/images/rxlab-card1.svg" alt="" />
+            <div class="rxlab-card-content">
+              <h2>Single Vision</h2>
+              <div class="list">
+                <span
+                  ><p>○</p>
+                  Purpose: For near-sightedness(Myopia), farsightedness
+                  (Hyperopia), and astigmatism.</span
+                >
+                <span
+                  ><p>○</p>
+                  Features: Available in various materials and designs for
+                  optimal vision and comfort.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="rxlab-lab-card1">
+            <img src="/assets/images/rxlab-card2.svg" alt="" />
+            <div class="rxlab-card-content">
+              <h2>Bifocal</h2>
+              <div class="list">
+                <span
+                  ><p>○</p>
+                  Purpose: Corrects both near vision (reading) and distance
+                  vision.</span
+                >
+                <span
+                  ><p>○</p>
+                  Types:</span
+                >
+                <span
+                  ><p>•</p>
+                  Executive E-Line</span
+                >
+                <span
+                  ><p>•</p>
+                  'D' Bifocal/Straight Top</span
+                >
+                <span
+                  ><p>•</p>
+                  No Line/Digital Bifocal</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rxlab-lab-card2">
+          <img src="/assets/images/rxlab-card3.svg" alt="" />
+          <div class="rxlab-card-content">
+            <h2>Childern’s Lenses</h2>
+            <div class="list">
+              <span
+                ><p>○</p>
+                Purpose: Designed specifically for children's needs.</span
+              >
+              <span> Features:</span>
+              <span
+                ><p>•</p>
+                Myopia Control Lenses: Slow down or prevent the progression of
+                near-sightedness.</span
+              >
+              <span
+                ><p>•</p>
+                Lightweight materials for comfort and durability (Polycarbonate,
+                Trivex and MR-series)</span
+              >
+              <span
+                ><p>•</p>
+                Shatterproof (High Impact Resistant) for safety.</span
+              >
+              <span
+                ><p>•</p>
+                Shatterproof (High Impact Resistant) for safety.</span
+              >
+              <span
+                ><p>•</p>
+                UV Protection to safeguard developing eyes.</span
+              >
+              <span
+                ><p>•</p>
+                Anti-Reflection Coating to reduce reflection and improve visual
+                clarity.</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="rxlab-lab-card2">
+          <img src="/assets/images/rxlab-card4.svg" alt="" />
+          <div class="rxlab-card-content">
+            <h2>Progressive</h2>
+            <div class="list">
+              <span
+                ><p>○</p>
+                Purpose: Provides seamless vision for all distances (near,
+                intermediate, and far).</span
+              >
+              <span
+                ><p>○</p>
+                Types:</span
+              >
+              <span
+                ><p>•</p>
+                Hard Design/Traditional Surface Design</span
+              >
+              <span
+                ><p>•</p>
+                Soft Design</span
+              >
+              <span
+                ><p>•</p>
+                Advanced Soft Design</span
+              >
+              <span
+                ><p>•</p>
+                Digital Surface Design</span
+              >
+              <span
+                ><p>•</p>
+                Free Form Design</span
+              >
+              <span
+                ><p>•</p>
+                Individualized/Personalized Design</span
+              >
+              <span
+                ><p>•</p>
+                Sports Progressive Lenses</span
+              >
+              <span
+                ><p>•</p>
+                Office lenses (designed for far intermediate to near work)</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rxlab-lenstreatment">
+      <div class="rxlab-lenstreatment-content container">
+        <h1>Lens Treatments & Coatings</h1>
+        <div class="rxlab-lenstreatment-container">
+          <div class="rxlab-lenstreatement-card">
+            <img src="/assets/images/rxlab-coatingcard.svg" alt="" />
+            <div class="rxlab-card-content">
+              <h2>Complete Protection</h2>
+              <div class="list">
+                <span
+                  ><p>○</p>
+                  Sunglasses (UV 400): Protect eyes from harmful UV rays.</span
+                >
+                <span
+                  ><p>○</p>
+                  Anti-Reflection Coated Lenses: Reduce glare, improve clarity,
+                  and enhance appearance.</span
+                >
+                <span
+                  ><p>○</p>
+                  UV Blockers: Filter out harmful UV radiation.</span
+                >
+                <span
+                  ><p>○</p>
+                  Superior Scratch Resistance for long-lasting clarity.</span
+                >
+                <span
+                  ><p>○</p>
+                  Photochromic Lenses: Automatically adjust to changing light
+                  conditions.</span
+                >
+                <span
+                  ><p>○</p>
+                  Blue Light Blocking Lenses: Reduce eye strain from digital
+                  devices.</span
+                >
+                <span
+                  ><p>○</p>
+                  Anti-Fatigue Lenses: Minimize eye strain during prolonged
+                  computer use.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="rxlab-lenstreatement-card">
+            <img src="/assets/images/rxlab-coatingcard.svg" alt="" />
+            <div class="rxlab-card-content">
+              <h2>For Safe Driving</h2>
+              <div class="list">
+                <span
+                  ><p>○</p>
+                  Enhanced Anti-Reflection Coating: Reduces glare and improves
+                  visibility while driving.</span
+                >
+                <span
+                  ><p>○</p>
+                  Photochromic with Anti-Reflection Coating: Combines
+                  light-adjusting technology with reducing reflection.</span
+                >
+                <span
+                  ><p>○</p>
+                  Polarized Sunglasses: Eliminate glare from reflective surfaces
+                  like water and snow.</span
+                >
+                <span
+                  ><p>○</p>
+                  Variety of Tints: Enhances contrast and reduces glare in
+                  low-light conditions.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="rxlab-lenstreatement-card">
+            <img src="/assets/images/rxlab-coatingcard.svg" alt="" />
+            <div class="rxlab-card-content">
+              <h2>Fashionable</h2>
+              <div class="list">
+                <span
+                  ><p>○</p>
+                  Solid Tinted Glasses: Add a touch of style.</span
+                >
+                <span
+                  ><p>○</p>
+                  GradientTinted Lenses: Create a fashionable and unique
+                  look.</span
+                >
+                <span
+                  ><p>○</p>
+                  Mirror Coated Lenses: Add a stylish and reflective
+                  finish.</span
+                >
+                <span
+                  ><p>○</p>
+                  Clip-on Sunglasses: Easily convert regular glasses into
+                  sunglasses.</span
+                >
+                <span
+                  ><p>○</p>
+                  Customized/Prescription Sunglasses: Offer personalized style
+                  and protection.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="special-lens">
+      <div class="special-lens-content container">
+        <h1>Special Lenses</h1>
+        <div class="special-lens-container">
+          <div class="special-lens-card">
+            <h2>Aspheric Lenses</h2>
+            <span>Offer even thinner profiles and superior optics.</span>
+          </div>
+          <div class="special-lens-card">
+            <h2>Double Aspheric Lenses</h2>
+            <span
+              >Thinner and lighter than standard lenses, with improved visual
+              clarity.</span
+            >
+          </div>
+          <div class="special-lens-card">
+            <h2>Lenticular Lenses and Omega Bifocals</h2>
+            <span
+              >Used for high-powered prescriptions to minimize lens
+              thickness.</span
+            >
+          </div>
+          <div class="special-lens-card">
+            <h2>High Refractive Index Lenses</h2>
+            <span>Thinner and lighter options for high prescriptions.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="brand-content container">
+        <h1>Brands</h1>
+        <div class="slider">
+          <div class="slide-track">
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo1.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo2.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo3.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo4.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo5.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo1.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo2.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo3.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo4.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo5.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="spectacle-frames">
+      <div class="spectacle-frames-content container">
+        <h1>Latest & Fashionable Spectacle Frames</h1>
+        <h2>Key areas we target include</h2>
+        <div class="spectacle-frames-container">
+          <div class="spectacle-frames-card">
+            <span
+              >• At Trinity Optics, you can check out a wide range of Spectacle
+              Frames for all age groups. Whether it’s for a party, work,
+              college, school, adventure, sports, or any other need, our expert
+              sales team will help you choose the best from the lot.</span
+            >
+          </div>
+          <div class="spectacle-frames-card">
+            <span
+              >• At Trinity Optics, you can check out a wide range of Spectacle
+              Frames for all age groups. Whether it’s for a party, work,
+              college, school, adventure, sports, or any other need, our expert
+              sales team will help you choose the best from the lot.</span
+            >
+          </div>
+          <div class="spectacle-frames-card">
+            <span
+              >• At Trinity Optics, you can check out a wide range of Spectacle
+              Frames for all age groups. Whether it’s for a party, work,
+              college, school, adventure, sports, or any other need, our expert
+              sales team will help you choose the best from the lot.</span
+            >
+          </div>
+          <div class="spectacle-frames-card">
+            <span
+              >• At Trinity Optics, you can check out a wide range of Spectacle
+              Frames for all age groups. Whether it’s for a party, work,
+              college, school, adventure, sports, or any other need, our expert
+              sales team will help you choose the best from the lot.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="brand-content container">
+        <h1>Frames Brands</h1>
+        <div class="slider">
+          <div class="slide-track">
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo1.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo2.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo3.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo4.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo5.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo1.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo2.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo3.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo4.svg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="/assets/images/posters/brandlogo5.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="chooseus">
+      <div class="chooseus-content container">
+        <h1>Why Choose Us</h1>
+        <div class="chooseus-list">
+          <span
+            ><p>○</p>
+            Purpose: For near-sightedness(Myopia), farsightedness (Hyperopia),
+            and astigmatism.</span
+          >
+          <span
+            ><p>○</p>
+            Features: Available in various materials and designs for optimal
+            vision and comfort.</span
+          >
+        </div>
+      </div>
+    </section>
+    <div id="footer"></div>
+    <script>
+      fetch("../components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+    <script src="/assets/js/animation.js"></script>
+  </body>
+</html>
