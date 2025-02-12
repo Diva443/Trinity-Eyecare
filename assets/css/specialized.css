@@ -1033,7 +1033,8 @@ margin-bottom: 30px;
     .scientific-dispensing-assessment-1-right img{
         margin-left: -70px;
         margin-top: 150px;
-        width: 150px;
+        width: 250px;
+        height: 450px;
     }
     .scientific-dispensing-assessment-1-right{
         margin-top: 10px;
@@ -1055,6 +1056,7 @@ margin-bottom: 30px;
         height: auto;
         margin-left: 20px;
     }
+
     .specialized-section h1{
          margin: 15px;
      }
@@ -1120,7 +1122,12 @@ margin-bottom: 30px;
     }
     .scientific-dispensing-assessment-card{
         height: auto;
+        display: flex;
+        width: 300px;
         margin: 20px;
+    }
+    .scientific-dispensing-assessment-2-right{
+        justify-content: space-between;
     }
     .specialized-section {
         width: 90%;
