@@ -398,6 +398,11 @@ header label{
 .navbar{
   text-align: left;
 }
+.bi-eyeglasses{
+  color: orange;
+  height: 25px;
+  margin-top: 3px;
+}
 
 
 
@@ -431,6 +436,10 @@ header label{
   }
   #menu-bar:checked ~ .navbar{
     display: initial;
+  }
+  header .navbar .dropdown{
+    list-style: none;
+    margin-left: 10px;
   }
 }
 
