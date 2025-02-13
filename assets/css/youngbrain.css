@@ -26,8 +26,8 @@
     font-weight: var(--sub-heading-weight-2);
 }
 .young-brain-heading{
-    width: 30%;
-    font-size: var(--sub-heading-2);
+    text-align: center;
+    font-size: var(--topic-heading);
     color: var(--color-1);
     font-weight: var(--topic-heading-weight);
     display: flex;

@@ -30,6 +30,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: auto;
+    gap: 30px ;
 }
 
 .rxlab-lab-card1{
@@ -108,6 +109,7 @@ flex-grow: 0;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 30px;
 }
 .rxlab-lenstreatement-card{
     width: 400px;
@@ -254,11 +256,13 @@ background: linear-gradient(90deg, #DEF7FF 0%, #FFFFFF 100%), #FFFFFF;
     font-size: var(--topic-heading);
     font-weight: var(--topic-heading-weight);
     color: var(--color-1);
+    text-align: center;
   }
   .spectacle-frames-content h2{
     font-size: var(--sub-heading-1);
     font-weight: var(--sub-heading-weight-1);
     color: var(--color-1);
+    text-align: center;
   }
   .spectacle-frames-container{
     display: flex;
@@ -319,7 +323,7 @@ flex-grow: 0;
     margin-top: 50px;
     font-size: var(--topic-heading);
     font-weight: var(--topic-heading-weight);
-    color: var(--color-1);
+    color: var(--color-1);text-align: center;
 }
 
 .chooseus-list {
@@ -341,4 +345,42 @@ flex-grow: 0;
         font-size: var(--sub-heading-1);
         font-weight: var(--sub-heading-weight-1);
         color: var(--color-2);
+    }
+
+    @media screen and (max-width:1200px) {
+      .chooseus-list{
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+
+    @media screen and (max-width:1000px) {
+      .rxlab-content{
+        align-items: center;
+      }
+      .rxlab-lab-card2{
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+      }
+
+    }
+
+    @media screen and (max-width:570px) {
+      .rxlab-lab-card1,.rxlab-lab-card2{
+        width: 98%;
+      }
+      .rxlab-lab-card1 img,.rxlab-lab-card2 img{
+        width: 100%;
+      }
+      .special-lens-card,.spectacle-frames-card,.rxlab-lenstreatement-card{
+        width: 98%;
+      }
+      .special-lens-content h2{
+        font-size: var(--content1);
+      }
+      .spectacle-frames-card{
+        height: 100%;
+        font-size: var(--content2);
+      } 
     }
