@@ -153,3 +153,18 @@ color: var(--color-5);
     flex-direction: column;
     gap: 30px;
 }
+
+@media screen and (max-width:1200px) {
+    .expertise3-content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .expertise-content-items{
+        width: 90%;
+    }
+    .expertise-content-img{
+        width: 100%;
+    }
+}
