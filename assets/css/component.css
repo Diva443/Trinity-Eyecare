@@ -573,7 +573,7 @@ text-align: left;
 
 @media screen and (max-width:1000px) {
   .appoinment-card{
-    right: -77px;
+    right: -60px;
   }
 
   .appoinment-card .fa-address-book{
@@ -586,6 +586,6 @@ text-align: left;
   }
   
   .appoinment-card:hover {
-    transform: translateX(-77px); /* Move left on hover */
+    transform: translateX(-60px); /* Move left on hover */
   }
 }
