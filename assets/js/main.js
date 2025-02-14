@@ -1,16 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const navMenu = document.getElementById("navMenu");
-  const navToggle = document.getElementById("menuToggle");
+  const menuIcon = document.querySelector(".menu-icon");
+  const cancelIcon = document.querySelector(".cancel-icon");
 
-  navToggle.addEventListener("click", function () {
-    navMenu.classList.toggle("show");
+  menuIcon.addEventListener("click", function () {
+    navMenu.classList.add("active"); // Show the menu
+    menuIcon.style.display = "none"; // Hide the menu icon
+    cancelIcon.style.display = "block"; // Show the cancel icon
+  });
 
-    // Toggle between menu icons
-    if (navMenu.classList.contains("show")) {
-      navToggle.innerHTML = '<i class="fas fa-times"></i>'; // Close icon
-    } else {
-      navToggle.innerHTML = '<i class="fas fa-bars"></i>'; // Hamburger icon
-    }
+  cancelIcon.addEventListener("click", function () {
+    navMenu.classList.remove("active"); // Hide the menu
+    menuIcon.style.display = "block"; // Show the menu icon
+    cancelIcon.style.display = "none"; // Hide the cancel icon
   });
 });
 
