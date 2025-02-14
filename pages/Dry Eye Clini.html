@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dry Eye Clinic</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/expertise.css" />
+    <link rel="stylesheet" href="/assets/css/animation.css" />
+    <link rel="stylesheet" href="/assets/css/component.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <section class="breadcrumb-banner">
+      <div class="breadcrumb-banner-bg">
+        <div class="breadcrumb-content container">
+          <div class="breadcrumb-content1">
+            <h3 class="">Dry Eye Clinic</h3>
+            <h2>
+              We are dedicated to comprehensive eye care and offer specialized
+              services.
+            </h2>
+          </div>
+          <div class="specialized-content2"></div>
+        </div>
+      </div>
+    </section>
+    <section class="expertise1">
+      <div class="expertise1-content container">
+        <img
+          src="/assets/images/expertise.svg"
+          class="expertise-content-img"
+          alt=""
+        />
+        <div class="expertise-content-items">
+          <h2>Dry Eye Clinic</h2>
+          <span
+            >Dry Eye Provides diagnosis and management of dry eye
+            syndrome.</span
+          >
+          <a href="/pages/enquiry.html" class="appoinment-button">
+            Book Appoinment</a
+          >
+          <div class="expertise-content-items1">
+            <h2>Assessment Tools</h2>
+            <div class="expertise-content-cards">
+              <div class="expertise-content-card">
+                <div class="expertise-content-card-head">
+                  <i class="ri-checkbox-line"></i>
+                  <h3>Tear Break-Up Time(TBUT)</h3>
+                </div>
+                <span
+                  >Measures the time it takes for dry spots to appear on the
+                  cornea after a blink.</span
+                >
+              </div>
+              <div class="expertise-content-card">
+                <div class="expertise-content-card-head">
+                  <i class="ri-checkbox-line"></i>
+                  <h3>Schirmer’s Test</h3>
+                </div>
+                <span
+                  >Assesses tear production by placing a paper strip in the
+                  lower eyelid for 5 minutes.</span
+                >
+              </div>
+              <div class="expertise-content-card">
+                <div class="expertise-content-card-head">
+                  <i class="ri-checkbox-line"></i>
+                  <h3>Meibography</h3>
+                </div>
+                <span
+                  >Imaging technique used to visualize the structure of the
+                  meibomian glands.</span
+                >
+              </div>
+              <div class="expertise-content-card">
+                <div class="expertise-content-card-head">
+                  <i class="ri-checkbox-line"></i>
+                  <h3>Ocular Surface Staining</h3>
+                </div>
+                <span
+                  >Uses dyes like fluorescein and lissamine green to detect
+                  damage on the surface of the eye.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="expertise2">
+      <div class="expertise2-content container">
+        <div class="expertise-2-content-3">
+          <h2>Treatment Options</h2>
+          <span
+            >We provide the following facilities to ensure comprehensive care
+            for your eyes:</span
+          >
+          <div class="expertise-2-cards">
+            <div class="expertise-2-card">
+              <div class="expertise-2-card-head">
+                <i class="ri-checkbox-line"></i>
+                <h3>Heat Therapy</h3>
+              </div>
+              <span
+                >Applying warm compresses to the eyelids to unblock meibomian
+                glands and improve oil secretion. Heating Mask for Dry Eye
+                available at Trinity Optics</span
+              >
+            </div>
+
+            <div class="expertise-2-card">
+              <div class="expertise-2-card-head">
+                <i class="ri-checkbox-line"></i>
+                <h3>Artificial Tears</h3>
+              </div>
+              <span
+                >Lubricating eye drops to provide temporary relief from
+                dryness.</span
+              >
+            </div>
+            <div class="expertise-2-card">
+              <div class="expertise-2-card-head">
+                <i class="ri-checkbox-line"></i>
+                <h3>Scleral Lens</h3>
+              </div>
+              <span>For severe dry eye patients</span>
+            </div>
+            <div class="expertise-2-card">
+              <div class="expertise-2-card-head">
+                <i class="ri-checkbox-line"></i>
+                <h3>Omega-3 Supplements</h3>
+              </div>
+              <span
+                >Dietary supplements to improve the quality of the tear film.
+              </span>
+            </div>
+            <div class="expertise-2-card">
+              <div class="expertise-2-card-head">
+                <i class="ri-checkbox-line"></i>
+                <h3>Lid Hygiene</h3>
+              </div>
+              <span
+                >Regular cleaning of the eyelids to remove debris and reduce
+                inflammation.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div id="footer"></div>
+    <script>
+      fetch("../components/footer.html") // Absolute path from the root
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script> -->
+    <script src="/assets/js/animation.js"></script>
+  </body>
+</html>
