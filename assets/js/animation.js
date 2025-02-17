@@ -110,6 +110,16 @@ $(document).ready(function () {
     margin: 5,
     autoplayTimeout: 9000, // 3000ms = 3s
     autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1, // Show 1 item for screens <= 600px
+        margin: 10,
+      },
+      1000: {
+        items: 2, // Show 3 items for screens > 1200px
+        margin: 20,
+      },
+    },
   });
 });
 

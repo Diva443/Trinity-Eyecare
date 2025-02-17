@@ -378,7 +378,7 @@ margin-top: 10px;
   .slide-track {
     display: flex;
     gap: 10rem; /* Space between images */
-    animation: scroll 20s linear infinite; /* Continuous animation */
+    animation: scroll 10s linear infinite; /* Continuous animation */
   }
   
   .slide {
@@ -466,7 +466,7 @@ margin-top: 10px;
     color:#fff;
 }
 
-@media (max-width:768px){
+/* @media (max-width:768px){
     .enquiry-banner,.young-brain-updates,.testimonial,.client-banner,.footer{
         width: 150%;
     }
@@ -502,5 +502,55 @@ margin-top: 10px;
         width: 380px;
         margin-left: auto;
         margin-right: auto;
+    }
+} */
+
+@media screen and (max-width:900px) {
+
+    .enquiry-banner-content h1{
+        display: none;
+    }
+    .young-brain-updates{
+        margin-top: 180px;
+    }
+}
+@media screen and (max-width:869px) {
+    .young-brain-updates-content{
+        width: 90%;
+    }
+    .enquiry-banner-content-1{
+        margin-top: 40%;
+    }
+    .enquiry-banner-querybox{
+        margin-top: 5px;
+    }
+    .young-brain-poster-content{
+        width: 100%;
+    }
+    .young-brain-poster-info{
+        width: 90%;
+        align-items: center;
+    }
+    .young-brain-poster-content p,.young-brain-poster-info h1{
+        text-align: justify;
+    }
+}
+@media screen and (max-width:550px) {
+    .testimonial-carousel-item{
+        width: 100%;
+    }
+    .young-brain-updates{
+        margin-top: 80px
+    }
+}
+@media screen and (max-width:400px) {
+    .enquiry-banner-querybox{
+        width: 95%;
+    }
+    .enquiry-banner-querybox-input,.enquiry-banner-querybox-button{
+        width: 90%;
+    }
+    .enquiry-banner-querybox-header h2{
+        font-size: var(--content2);
     }
 }
