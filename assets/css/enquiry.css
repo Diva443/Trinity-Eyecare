@@ -465,3 +465,42 @@ margin-top: 10px;
     font-size: 35px;
     color:#fff;
 }
+
+@media (max-width:768px){
+    .enquiry-banner,.young-brain-updates,.testimonial,.client-banner,.footer{
+        width: 150%;
+    }
+    .enquiry-banner-content{
+       margin-top: 50px;
+        width: 45%;
+       
+    }
+    .young-brain-updates-count{
+        gap: 20px;
+    }
+   
+    .enquiry-banner-querybox{
+        margin-left: 10px;
+    }
+    .enquiry-banner1{
+        width: 100%;
+    }
+    .testimonial-carousel-item {
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+@media (max-width:450px){
+    .enquiry-banner,.young-brain-updates,.testimonial,.client-banner,.footer{
+        width: 250%;
+    }
+   
+    
+    .testimonial-carousel-item {
+        width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
