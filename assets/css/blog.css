@@ -427,9 +427,6 @@
         .blog-appoinment-1,.blog-appoinment-2{
             width: 90%;
         }
-        .blog-appoinment-1{
-            justify-content: flex-start;
-        }
         .blog-appoinment-2{
             gap: 10px;
             text-align: center;
@@ -449,6 +446,12 @@
         }
        
     }
+    @media (min-width:679px){
+        .blog-section-main-content h5,.types-refractive-error span,.blog-section-main-content p,.blog-section-main-content h1{
+            width: 90%;
+        }
+    }
+
        
         
 
@@ -468,7 +471,7 @@
         .blog-section-quickaccess{
             display: none;
         }
-        .blog-section-main-content h5,.types-refractive-error span,.blog-section-main-content p{
+        .blog-section-main-content h5,.types-refractive-error span,.blog-section-main-content p,.types-refractive-error h1{
             width: 90%;
         }
         .blog-section-content{
@@ -487,5 +490,13 @@
        .m-footer-content{
             width: 90%;
         }
+        .blog-appoinment-2{
+            gap: 10px;
+            text-align: center;
+        }
+        .blog-appoinment-button{
+            width: 60%;
+        }
+        
     }
-
+   
